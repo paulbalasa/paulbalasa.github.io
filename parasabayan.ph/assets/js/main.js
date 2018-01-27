@@ -191,6 +191,19 @@ function initChart(el) {
 	});
 }
 
+function _() {
+	e(".add-hand").each(function() {
+		var t = e(this);
+		t.on("mouseover", function() {
+			t.find(".slick-list").addClass("grab")
+		}).on("mousedown", function() {
+			return t.find(".slick-list").addClass("grabing"), !0
+		}).on("mouseup", function() {
+			return t.find(".slick-list").removeClass("grabing"), !1
+		})
+	})
+}
+
 //function that initiating template plugins on window.load event
 function windowLoadInit() {
 
