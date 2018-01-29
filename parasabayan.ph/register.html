@@ -75,8 +75,6 @@
 	<div id="canvas">
 		<div id="box_wrapper">
 
-			<!-- template sections -->
-
 			<header class="page_header header_white toggler_xs_right section_padding_15">
 				<div class="container-fluid">
 					<div class="row">
@@ -99,18 +97,18 @@
 										</li>
 
 										<li>
-											<a href="#about">About</a>
+											<a href="about.html#about">About</a>
 											<ul>
 												<li>
-													<a href="#ulap">About ULAP</a>
+													<a href="about.html#ulap">About ULAP</a>
 												</li>
 
 												<li>
-													<a href="#partnership">Partnership</a>
+													<a href="about.html#partnership">Partnership</a>
 												</li>
 											</ul>
 										</li>
-										<li class="active">
+										<li>
 											<a href="odos.html">ODOS</a>
 											<ul>
 												<li>
@@ -228,18 +226,15 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<h2>CBMS</h2>
+							<h2>Register</h2>
 							<ol class="breadcrumb darklinks">
 								<li>
 									<a href="index.html">
 									Home
 								</a>
 								</li>
-								<li>
-									<a href="odos.html">ODOS</a>
-								</li>
 								<li class="active">
-									<a href="odos-cbms.html">CBMS</a>
+									<a href="register.html">Register</a>
 								</li>
 							</ol>
 						</div>
@@ -247,7 +242,111 @@
 				</div>
 			</section>
 
-			
+			<section class="ls columns_padding_25 section_padding_top_100 section_padding_bottom_100">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<h3 class="module-header">Create New Account</h3>
+						</div>
+					</div>
+					<div class="row">
+
+						<div class="col-md-8 to_animate" data-animation="scaleAppear">
+
+							<form class="contact-form columns_padding_5" method="post" action="">
+
+								<div class="col-sm-12">
+									<div class="form-group">
+										<label for="name">Full Name
+											<span class="required">*</span>
+										</label>
+										<i class="fa fa-user highlight" aria-hidden="true"></i>
+										<input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control" placeholder="Full Name">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="phone">Position
+											<span class="required">*</span>
+										</label>
+										<i class="fa fa-male highlight" aria-hidden="true"></i>
+										<input type="text" aria-required="true" size="30" value="" name="position" id="position" class="form-control" placeholder="Position">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="phone">Local Gov't Unit (LGU)
+											<span class="required">*</span>
+										</label>
+										<i class="fa fa-bank highlight" aria-hidden="true"></i>
+										<input type="text" aria-required="true" size="30" value="" name="lgu" id="lgu" class="form-control" placeholder="Local Gov't Unit (LGU)">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="phone">Phone Number
+											<span class="required">*</span>
+										</label>
+										<i class="fa fa-phone highlight" aria-hidden="true"></i>
+										<input type="text" aria-required="true" size="30" value="" name="phone" id="phone" class="form-control" placeholder="Phone Number">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="phone">Mobile Number
+											<span class="required">*</span>
+										</label>
+										<i class="fa fa-phone highlight" aria-hidden="true"></i>
+										<input type="text" aria-required="true" size="30" value="" name="mobile" id="mobile" class="form-control" placeholder="Mobile Number">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="email">Email address
+											<span class="required">*</span>
+										</label>
+										<i class="fa fa-envelope highlight" aria-hidden="true"></i>
+										<input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control" placeholder="Email Address">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="email">Verify Email address
+											<span class="required">*</span>
+										</label>
+										<i class="fa fa-envelope highlight" aria-hidden="true"></i>
+										<input type="email" aria-required="true" size="30" value="" name="verify_email" id="verify_email" class="form-control" placeholder="Verify Email Address">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="subject">Password
+											<span class="required">*</span>
+										</label>
+										<i class="fa fa-key highlight" aria-hidden="true"></i>
+										<input type="text" aria-required="true" size="30" value="" name="password" id="password" class="form-control" placeholder="Password">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="subject">Password
+											<span class="required">*</span>
+										</label>
+										<i class="fa fa-key highlight" aria-hidden="true"></i>
+										<input type="text" aria-required="true" size="30" value="" name="password" id="password" class="form-control" placeholder="Password">
+									</div>
+								</div>
+								<div class="col-sm-12 bottommargin_0">
+									<div class="contact-form-submit topmargin_10">
+										<button type="submit" id="submit" name="submit" class="theme_button color1 wide_button margin_0">Submit</button> &nbsp &nbsp &nbsp
+										<button type="submit" id="reset" name="reset" class="theme_button color2 wide_button margin_0">Reset</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
 
 			<footer class="page_footer ds darkblue parallax section_padding_top_100 section_padding_bottom_65 columns_padding_25">
 				<div class="container">
@@ -335,6 +434,7 @@
 
 	<script src="assets/js/compressed.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/slidercarousel.js"></script>
 
 </body>
 
