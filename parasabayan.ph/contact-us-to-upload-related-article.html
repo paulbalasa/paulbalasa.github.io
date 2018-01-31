@@ -21,7 +21,6 @@
 	<link rel="stylesheet" href="assets/css/animations.css">
 	<link rel="stylesheet" href="assets/css/fonts.css">
 	<link rel="stylesheet" href="assets/css/main.css" class="color-switcher-link">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
 
 	<!--[if lt IE 9]>
@@ -201,7 +200,7 @@
 										<!-- eof best practices -->
 
 										<!-- contacts -->
-										<li>
+										<li class="active">
 											<a href="contact-us.html">Contact Us</a>
 										</li>
 										<!-- eof contacts -->
@@ -227,7 +226,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<h2>Login/Register</h2>
+							<h2>Upload Related Article</h2>
 							<ol class="breadcrumb darklinks">
 								<li>
 									<a href="index.html">
@@ -235,7 +234,7 @@
 								</a>
 								</li>
 								<li class="active">
-									<a href="login.html">Login/Register</a>
+									<a href="contact-us.html">Contact Us</a>
 								</li>
 							</ol>
 						</div>
@@ -243,115 +242,156 @@
 				</div>
 			</section>
 
-			<div class="container">
-			    <div class="login-signup">
-			      	<div class="row">
-			        	<div class="col-sm-12 col-md-12 nav-tab-holder">
-			        		<ul class="nav nav-tabs row" role="tablist">
-			          			<li role="presentation" class="active col-sm-6"><a href="#create-account" aria-controls="create-account" role="tab" data-toggle="tab"><center>Create New Account</center></a></li>
-			          			<li role="presentation" class="col-sm-6"><a href="#login" aria-controls="login" role="tab" data-toggle="tab"><center>Login</center></a></li>
-			        		</ul>
-			      		</div>
+			<section class="ls columns_padding_25 section_padding_top_100 section_padding_bottom_100">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<h3 class="module-header">Upload Related Article Form</h3>
+							<h6 class="module-header">Disclaimer: Uploaded files are subject for approval.</h6>
+						</div>
+					</div>
+					<div class="row">
 
-			    	</div>
+						<div class="col-md-8 to_animate" data-animation="scaleAppear">
+
+							<form class="contact-form columns_padding_5" method="post" action="">
+
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="name">Name of Uploader
+											<span class="required">*</span>
+										</label>
+										<i class="fa fa-user highlight" aria-hidden="true"></i>
+										<input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control" placeholder="Full Name">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="phone">Gender
+											<span class="required">*</span>
+										</label>
+										<i class="fa fa-mars highlight" aria-hidden="true"></i>
+										<input type="text" aria-required="true" size="30" value="" name="gender" id="gender" class="form-control" placeholder="Gender">
+									</div>
+								</div>
+								<div class="col-sm-12">
+									<div class="form-group">
+										<label for="email">Email address
+											<span class="required">*</span>
+										</label>
+										<i class="fa fa-envelope highlight" aria-hidden="true"></i>
+										<input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control" placeholder="Email Address">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="subject">Contact Number (LGU Landline)
+											<span class="required">*</span>
+										</label>
+										<i class="fa fa-phone highlight" aria-hidden="true"></i>
+										<input type="text" aria-required="true" size="30" value="" name="contact-number" id="contact-number" class="form-control" placeholder="Contact Number (LGU Landline)">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="subject">Mobile Number
+											<span class="required">*</span>
+										</label>
+										<i class="fa fa-phone highlight" aria-hidden="true"></i>
+										<input type="text" aria-required="true" size="30" value="" name="mobile-number" id="mobile-number" class="form-control" placeholder="Mobile Number">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="subject">LGU Office/Department
+											<span class="required">*</span>
+										</label>
+										<i class="fa fa-institution highlight" aria-hidden="true"></i>
+										<input type="text" aria-required="true" size="30" value="" name="lgu-office" id="lgu-office" class="form-control" placeholder="LGU Office/Department:">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="subject">LGU Position
+											<span class="required">*</span>
+										</label>
+										<i class="fa fa-sitemap highlight" aria-hidden="true"></i>
+										<input type="text" aria-required="true" size="30" value="" name="lgu-position" id="lgu-position" class="form-control" placeholder="LGU Position">
+									</div>
+								</div>
+								<div class="col-sm-12">
+									<div class="form-group">
+										<label for="subject">Immediate Supervisor
+											<span class="required">*</span>
+										</label>
+										<i class="fa fa-sitemap highlight" aria-hidden="true"></i>
+										<input type="text" aria-required="true" size="30" value="" name="supervisor" id="supervisor" class="form-control" placeholder="Immediate Supervisor">
+									</div>
+								</div>
+								<div class="col-sm-12">
+
+									<div class="contact-form-message form-group">
+										<label for="message">Message</label>
+										<i class="fa fa-comment highlight" aria-hidden="true"></i>
+										<textarea aria-required="true" rows="3" cols="45" name="message" id="message" class="form-control" placeholder="Message"></textarea>
+									</div>
+								</div>
+								
+								<div class="col-sm-12 bottommargin_0">
+									<div class="contact-form-submit topmargin_10">
+										<button type="submit" id="contact_form_submit" name="contact_submit" class="theme_button color1 wide_button margin_0">Send</button>
+										<button type="submit" id="upload_file" name="upload_file" class="theme_button color1 wide_button margin_0">Upload File</button>
+									</div>
+								</div>
 
 
-      				<div class="tab-content">
-				        <div role="tabpanel" class="tab-pane active" id="create-account">
-				          	<div class="row">
-				          		<div class="col-sm-2"></div>
-				            	<div class="col-sm-8">
-				              		<article role="login">
-				                		<h3 class="text-center"><i class="fa fa-lock"></i>Create New Account</h3>
-				               			<form class="signup" action="index.html" method="post">
-				                  			<div class="form-group">
-				                  				<i class="fa fa-user highlight" aria-hidden="true"></i> &nbsp &nbsp
-				                  				<label>Name:</label>
-				                    			<input type="text" class="form-control" placeholder="First Name / Middle Initial / Last Name">
-				                  			</div>
-				                  			<div class="form-group">
-				                  				<i class="fa fa-male highlight" aria-hidden="true"></i> &nbsp &nbsp
-				                  				<label>Position:</label>
-				                    			<input type="text" class="form-control" placeholder="Position">
-				                  			</div>
-				                  			<div class="form-group">
-				                  				<i class="fa fa-bank highlight" aria-hidden="true"></i> &nbsp &nbsp
-				                  				<label>Local Government Unit (LGU):</label>
-				                    			<input type="text" class="form-control" placeholder="Local Government Unit (LGU)">
-				                  			</div>
-				                  			<div class="form-group">
-				                  				<i class="fa fa-phone highlight" aria-hidden="true"></i> &nbsp &nbsp
-				                  				<label>Phone Number:</label>
-				                   				<input type="text" class="form-control" placeholder="(xxx) xxx-xxxx">
-				                  			</div>
-				                  			<div class="form-group">
-				                  				<i class="fa fa-phone highlight" aria-hidden="true"></i> &nbsp &nbsp
-				                  				<label>Mobile Number:</label>
-				                    			<input type="text" class="form-control" placeholder="+639xx-xxx-xxxx">
-				                  			</div>
-				                  			<div class="form-group">
-				                  				<i class="fa fa-envelope highlight" aria-hidden="true"></i> &nbsp &nbsp
-				                  				<label>Email Address:</label>
-				                   				<input type="email" class="form-control" placeholder="sample@email.com">
-				                  			</div>
-				                  			<div class="form-group">
-				                  				<i class="fa fa-envelope highlight" aria-hidden="true"></i> &nbsp &nbsp
-				                  				<label>Verify Email Address:</label>
-				                   				<input type="email" class="form-control" placeholder="sample@email.com">
-				                  			</div>
-				                			<div class="form-group">
-				                				<i class="fa fa-key highlight" aria-hidden="true"></i> &nbsp &nbsp
-				                  				<label>Password:</label>
-				                   				<input type="password" class="form-control" placeholder="Password">
-				                  			</div>
-				                  			<div class="form-group">
-				                  				<i class="fa fa-key highlight" aria-hidden="true"></i> &nbsp &nbsp
-				                  				<label>Verify Password:</label>
-				                  	 			<input type="password" class="form-control" placeholder="Confirm Password">
-				                 			</div>
-				                 			<div class="form-group">
-				                   				<input type="submit" class="btn btn-success btn-block" value="SUBMIT">
-				                  			</div>
-				                		</form>
-              						</article>
-            					</div>
-            					<div class="col-sm-2"></div>
-          					</div>
-				          	<!-- end of row -->
-				        </div>	
-        				<!-- end of home -->
+							</form>
+						</div>
 
-      					<div role="tabpanel" class="tab-pane" id="login">
-        					<div class="row">
-        						<div class="col-sm-3"></div>
-				          		<div class="col-sm-6">
-				            		<article role="login">
-				              			<h3 class="text-center"><i class="fa fa-lock"></i> Login </h3>
-				              			<form class="signup" action="lgu-best-practices.html">
+						<div class="col-md-4 to_animate" data-animation="scaleAppear">
+								
+							<ul class="list1 no-bullets no-top-border no-bottom-border">
 
-				                			<div class="form-group">
-				                  				<input type="text" class="form-control" placeholder="UserName">
-				                			</div>
-				                			<div class="form-group">
-				                  				<input type="password" class="form-control" placeholder="Password">
-				                			</div>
-				                			<div class="form-group">
-												<!-- <input type="submit" class="btn btn-success btn-block"  value="SUBMIT"> -->
-												<center>
-													<a href="lgu-best-practices.html" class="theme_button color1">Login</a>
-													<a href="#" class="theme_button color1">Clear</a>
-												</center>
-				                			</div>
-				              			</form>
+								<li>
+									<div class="media">
+										<div class="media-left">
+											<i class="rt-icon2-shop highlight fontsize_18"></i>
+										</div>
+										<div class="media-body">
+											<h5 class="media-heading grey">Our Office:</h5>
+											28th Floor, Unit 2803, Summit One Tower Building 530, Shaw Boulevard, Mandaluyong City 1550, Philippines
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="media">
+										<div class="media-left">
+											<i class="rt-icon2-phone5 highlight fontsize_18"></i>
+										</div>
+										<div class="media-body">
+											<h5 class="media-heading grey">Telephone:</h5>
+											(632) 534-6787 <br> (632) 534-6789
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="media">
+										<div class="media-left">
+											<i class="rt-icon2-mail highlight fontsize_18"></i>
+										</div>
+										<div class="media-body greylinks">
+											<h5 class="media-heading grey">Email:</h5>
+											<a href="mailto:your@mail.com">parasabayansec@gmail.com</a>
+										</div>
+									</div>
+								</li>
+							</ul>
 
-				            		</article>
-				          		</div>
-				          		<div class="col-sm-3"></div>
-        					</div>
-      					</div>
-  					</div>
-  				</div>
-  			</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
 
 			<footer class="page_footer ds darkblue parallax section_padding_top_100 section_padding_bottom_65 columns_padding_25">
 				<div class="container">

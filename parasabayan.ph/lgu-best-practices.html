@@ -20,8 +20,8 @@
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/animations.css">
 	<link rel="stylesheet" href="assets/css/fonts.css">
+	<link rel="stylesheet" href="assets/css/collapsiblepanel.css">
 	<link rel="stylesheet" href="assets/css/main.css" class="color-switcher-link">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
 
 	<!--[if lt IE 9]>
@@ -75,6 +75,8 @@
 	<!-- wrappers for visual page editor and boxed version of template -->
 	<div id="canvas">
 		<div id="box_wrapper">
+
+			<!-- template sections -->
 
 			<header class="page_header header_white toggler_xs_right section_padding_15">
 				<div class="container-fluid">
@@ -139,7 +141,7 @@
 												<li>
 													<a href="tsp.html#bizbox">BizBox</a>
 												</li>
-											</ul>							
+											</ul>								
 										</li>
 										<!-- eof tsp -->
 
@@ -195,7 +197,7 @@
 										<!-- eof news -->
 
 										<!-- best practices -->
-										<li>
+										<li class="active">
 											<a href="best-practices.html">Best Practices</a>
 										</li>
 										<!-- eof best practices -->
@@ -227,7 +229,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<h2>Login/Register</h2>
+							<h2>LGU Best Practices</h2>
 							<ol class="breadcrumb darklinks">
 								<li>
 									<a href="index.html">
@@ -235,7 +237,7 @@
 								</a>
 								</li>
 								<li class="active">
-									<a href="login.html">Login/Register</a>
+									<a href="lgu-best-practices.html">Best Practices</a>
 								</li>
 							</ol>
 						</div>
@@ -243,115 +245,66 @@
 				</div>
 			</section>
 
-			<div class="container">
-			    <div class="login-signup">
-			      	<div class="row">
-			        	<div class="col-sm-12 col-md-12 nav-tab-holder">
-			        		<ul class="nav nav-tabs row" role="tablist">
-			          			<li role="presentation" class="active col-sm-6"><a href="#create-account" aria-controls="create-account" role="tab" data-toggle="tab"><center>Create New Account</center></a></li>
-			          			<li role="presentation" class="col-sm-6"><a href="#login" aria-controls="login" role="tab" data-toggle="tab"><center>Login</center></a></li>
-			        		</ul>
-			      		</div>
-
-			    	</div>
-
-
-      				<div class="tab-content">
-				        <div role="tabpanel" class="tab-pane active" id="create-account">
-				          	<div class="row">
-				          		<div class="col-sm-2"></div>
-				            	<div class="col-sm-8">
-				              		<article role="login">
-				                		<h3 class="text-center"><i class="fa fa-lock"></i>Create New Account</h3>
-				               			<form class="signup" action="index.html" method="post">
-				                  			<div class="form-group">
-				                  				<i class="fa fa-user highlight" aria-hidden="true"></i> &nbsp &nbsp
-				                  				<label>Name:</label>
-				                    			<input type="text" class="form-control" placeholder="First Name / Middle Initial / Last Name">
-				                  			</div>
-				                  			<div class="form-group">
-				                  				<i class="fa fa-male highlight" aria-hidden="true"></i> &nbsp &nbsp
-				                  				<label>Position:</label>
-				                    			<input type="text" class="form-control" placeholder="Position">
-				                  			</div>
-				                  			<div class="form-group">
-				                  				<i class="fa fa-bank highlight" aria-hidden="true"></i> &nbsp &nbsp
-				                  				<label>Local Government Unit (LGU):</label>
-				                    			<input type="text" class="form-control" placeholder="Local Government Unit (LGU)">
-				                  			</div>
-				                  			<div class="form-group">
-				                  				<i class="fa fa-phone highlight" aria-hidden="true"></i> &nbsp &nbsp
-				                  				<label>Phone Number:</label>
-				                   				<input type="text" class="form-control" placeholder="(xxx) xxx-xxxx">
-				                  			</div>
-				                  			<div class="form-group">
-				                  				<i class="fa fa-phone highlight" aria-hidden="true"></i> &nbsp &nbsp
-				                  				<label>Mobile Number:</label>
-				                    			<input type="text" class="form-control" placeholder="+639xx-xxx-xxxx">
-				                  			</div>
-				                  			<div class="form-group">
-				                  				<i class="fa fa-envelope highlight" aria-hidden="true"></i> &nbsp &nbsp
-				                  				<label>Email Address:</label>
-				                   				<input type="email" class="form-control" placeholder="sample@email.com">
-				                  			</div>
-				                  			<div class="form-group">
-				                  				<i class="fa fa-envelope highlight" aria-hidden="true"></i> &nbsp &nbsp
-				                  				<label>Verify Email Address:</label>
-				                   				<input type="email" class="form-control" placeholder="sample@email.com">
-				                  			</div>
-				                			<div class="form-group">
-				                				<i class="fa fa-key highlight" aria-hidden="true"></i> &nbsp &nbsp
-				                  				<label>Password:</label>
-				                   				<input type="password" class="form-control" placeholder="Password">
-				                  			</div>
-				                  			<div class="form-group">
-				                  				<i class="fa fa-key highlight" aria-hidden="true"></i> &nbsp &nbsp
-				                  				<label>Verify Password:</label>
-				                  	 			<input type="password" class="form-control" placeholder="Confirm Password">
-				                 			</div>
-				                 			<div class="form-group">
-				                   				<input type="submit" class="btn btn-success btn-block" value="SUBMIT">
-				                  			</div>
-				                		</form>
-              						</article>
-            					</div>
-            					<div class="col-sm-2"></div>
-          					</div>
-				          	<!-- end of row -->
-				        </div>	
-        				<!-- end of home -->
-
-      					<div role="tabpanel" class="tab-pane" id="login">
-        					<div class="row">
-        						<div class="col-sm-3"></div>
-				          		<div class="col-sm-6">
-				            		<article role="login">
-				              			<h3 class="text-center"><i class="fa fa-lock"></i> Login </h3>
-				              			<form class="signup" action="lgu-best-practices.html">
-
-				                			<div class="form-group">
-				                  				<input type="text" class="form-control" placeholder="UserName">
-				                			</div>
-				                			<div class="form-group">
-				                  				<input type="password" class="form-control" placeholder="Password">
-				                			</div>
-				                			<div class="form-group">
-												<!-- <input type="submit" class="btn btn-success btn-block"  value="SUBMIT"> -->
-												<center>
-													<a href="lgu-best-practices.html" class="theme_button color1">Login</a>
-													<a href="#" class="theme_button color1">Clear</a>
-												</center>
-				                			</div>
-				              			</form>
-
-				            		</article>
-				          		</div>
-				          		<div class="col-sm-3"></div>
-        					</div>
-      					</div>
-  					</div>
-  				</div>
-  			</div>
+			<section class="ls section_padding_top_100 section_padding_bottom_130">
+				<div class="container">
+				    <div class="row" id="panel">
+						<div class="col-md-12">
+							<div class="panel panel-success">
+								<div class="panel-heading">
+									<h3 class="panel-title clickable">Environment-Protective, Climate Change Adaptive and Disaster Resilient LGU's</h3>
+									<span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+								</div>
+								<div class="panel-body">
+									<b>City of Iloilo </b>: Disaster Risk Resiliency Hub <br>
+									<b>Province of Batanes </b>: The Epitome of Disaster Resiliency <br>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="panel panel-success">
+								<div class="panel-heading">
+									<h3 class="panel-title">Business-Friendly and Competitive LGU's</h3>
+									<span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+								</div>
+								<div class="panel-body">
+									<b> Cauayan City </b>: Public Private Partnership on Localizing SDGs <br>
+									<b>City of San Fernando, La Union </b>: Regulatory Simplification <br>
+									<b>Cagayan de Oro City </b>: Internet Online Services <br>
+									<b>Iloilo Province </b>: Capitol IP- Telephony Communication System <br>
+									<b>Bogo City, Cebu </b>: Integrated Queuing and Business Permit and Licensing System for LGU’s (IQ + BPLS) <br>
+									<b>Mina, Iloilo </b>: Municipal Agriculture Information System- Farmers Agriculture Resource Management System (MAIS-FARMS) <br>
+									<b> Cebu City </b>: Cebu City Travel Lines <br>
+									<b>Baliwag, Bulacan </b>: The Baliwag Mobile App <br>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="panel panel-success">
+								<div class="panel-heading">
+									<h3 class="panel-title">Socially Protective and Safe LGU's</h3>
+									<span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+								</div>
+								<div class="panel-body">
+									<b> Quezon City </b>: Tahanan Drug Rehabilitation Program <br>
+									<b> Municipality of Carmona, Cavite </b>: “Your Embrace, My Hope Transforming the Lives of PWDs” 
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="panel panel-success">
+								<div class="panel-heading">
+									<h3 class="panel-title">Accountable, Transparent, Participative, and Effective Local Governance</h3>
+									<span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
+								</div>
+								<div class="panel-body">
+									<b> Municipality of Piddig, Ilocos Norte </b>: Organic Coffee Plantation and Farm Consolidation <br>
+									<b> Municipality of Dumingag, Zamboanga del Sur </b>: Organic Agriculture and Governance (a roadmap for LGUs) 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
 			<footer class="page_footer ds darkblue parallax section_padding_top_100 section_padding_bottom_65 columns_padding_25">
 				<div class="container">
@@ -439,7 +392,7 @@
 
 	<script src="assets/js/compressed.js"></script>
 	<script src="assets/js/main.js"></script>
-	<script src="assets/js/slidercarousel.js"></script>
+	<script src="assets/js/collapsiblepanel.js"></script>
 
 </body>
 
