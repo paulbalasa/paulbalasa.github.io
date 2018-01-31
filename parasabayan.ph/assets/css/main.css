@@ -14358,7 +14358,7 @@ article[role="login"] p {
 }
 
 .nav-tab-holder {
-  padding: 0 0 0 30px;
+  padding: 0 0 0 160px;
   float: right;
 }
 
@@ -14367,7 +14367,7 @@ article[role="login"] p {
   float: none;
   display: table;
   table-layout: fixed;
-  width: 100%;
+  width: 80%;
 }
 
 .nav-tab-holder .nav-tabs > li {
