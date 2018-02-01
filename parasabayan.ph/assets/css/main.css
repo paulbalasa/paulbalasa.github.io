@@ -14478,3 +14478,7 @@ div.center {
 .margin-correction {
     margin-right: 10px;   
 }
+
+p {
+    text-indent: 50px;
+}
