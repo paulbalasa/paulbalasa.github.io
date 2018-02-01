@@ -1317,7 +1317,6 @@ td .media-body {
 
 .well {
 	box-shadow: none;
-	border: none;
 	border-radius: 0;
 }
 
@@ -14466,4 +14465,16 @@ article[role="manufacturer"] ul li i {
 div.center {
 	width:800px; 
 	margin:0 auto;
+}
+
+#fileselector {
+    margin: 10px; 
+}
+
+#upload-file-selector {
+    display:none;   
+}
+
+.margin-correction {
+    margin-right: 10px;   
 }
