@@ -1,32 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,600,700,900");
-/*
-Accent Colors:
-1: #4A6092
-2: #55BCE7
-3: #736fb3
-4: #55bce7
 
-Light section (.ls) colors:
-Text color in light section: #818181
-Background color for light section and font color in dark section: #ffffff
-Color for headings in light section and for background in dark section (.ds): #303030
-Background color for light muted section (grey - .ls.ms): #f4f4f4
-Background color for dark muted section (.ds.ms): #1c1c1c
-Border colors for elements in light section (and .with_border elements): #e6e6e6, rgba(0, 0, 0, 0.1)
-Background color for elements in light section (.with_background): #e6e6e6
-
-Dark section (.ds) colors: 
-Text color in dark section: #808080
-Border colors for elements in dark section: rgba(255, 255, 255, 0.1)
-Background color for elements in dark section (.with_background): rgba(255, 255, 255, 0.05)
-
-Color section (.cs) colors: 
-Border colors for elements in color section: rgba(255, 255, 255, 0.2)
-
-*/
-/*
-** Bootstrap Overrides
-*/
 /* half on .container in .container-fluid */
 .container-left-half,
 .container-right-half {
