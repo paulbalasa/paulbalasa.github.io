@@ -1,0 +1,56 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+.portfollio .head {
+  background: #fafafa;
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+.portfollio .head span {
+  display: inline-block;
+  margin: 0 20px;
+  padding:30px 0;
+  cursor: pointer;
+  color: #999;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  transition: all 0.5s ease
+}
+
+.active,
+.portfollio .head span:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  color: #000
+}
+
+.active {
+  color: #000 !important
+}
+
+.photo .tab {
+  margin: 20px 0;
+  position: relative
+}
+
+.photo .tab img {
+  height: 300px;
+}
+
+.photo .tab h2 {
+  position: absolute;
+  bottom: -9px;
+  width: 93.5%;
+  padding: 20px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  transition: all 0.5s ease;
+  cursor: pointer
+}
+
+.photo .tab:hover h2 {
+  height: 100%;
+  line-height: 300px;
+  background: rgba(0, 0, 0, 0.8);
+}
