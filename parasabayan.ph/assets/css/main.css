@@ -14453,3 +14453,37 @@ div.center {
 p {
     text-indent: 50px;
 }
+
+.filter-button
+{
+    font-size: 13px;
+    border-radius: 5px;
+    text-align: center;
+    color: #4A6092;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 13px;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4A6092;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #4A6092;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
