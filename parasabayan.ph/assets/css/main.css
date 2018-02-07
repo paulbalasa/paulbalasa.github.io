@@ -6542,7 +6542,7 @@ a.logo.vertical_logo .logo_text {
 
 .header_left_logo {
 	white-space: nowrap;
-	padding: 0 15px;
+	padding: 0 0 0 0;
 	overflow: visible;
 }
 
