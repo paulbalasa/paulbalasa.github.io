@@ -7,6 +7,7 @@
         <title>Appetizers | Burgers | Bar | Restaurant | TGI Fridays</title>
         <script type="text/javascript" src="assets/modernizr.custom.js"></script>
         <link rel="stylesheet" href="assets/css/app.css">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/site-logo.png" />
     </head>
     <body>
 
