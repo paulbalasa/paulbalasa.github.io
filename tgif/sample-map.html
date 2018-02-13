@@ -1,0 +1,42 @@
+<html>
+<head></head>
+<body>
+	<iframe
+	  width="100%"
+	  height="40%"
+	  frameborder="0" style="border:0"
+	  src="https://www.google.com/maps/embed/v1/search?key=AIzaSyAMP0eLI_y7uGLm-GzZhysu3GtryD6KV8Q
+	  &q=tgif+stores+in+philippines" allowfullscreen>
+	</iframe>
+
+
+	<br><br><br>
+
+
+	<iframe id="locatoriframe" src="http://locations.vans.com/01062013/where-to-get-it/index.html" class="where2getit" style="width: 100%;" frameborder="0" scrolling="no"></iframe>
+
+	<script type="text/javascript">
+					var eventMethod = window.addEventListener ? "addEventListener"
+							: "attachEvent";
+					var eventer = window[eventMethod];
+					var messageEvent = eventMethod == "attachEvent" ? "onmessage"
+							: "message";
+					var id = "locatoriframe"; // replace with id of the iframe to dynamically resize
+
+					eventer(messageEvent, function(e) {
+						var dimensions = e.data.split("//");
+						autoResize(dimensions[0], dimensions[1], dimensions[2]);
+					}, false);
+
+					function autoResize(newheight, newwidth, title) {
+						if (!isNaN(parseFloat(newheight)) && isFinite(newheight)) {
+							document.getElementById(id).style.height = (parseInt(newheight) +1)
+									+ "px";
+							if (title) {
+								document.title = title;
+							}
+						}
+					}
+				</script>
+</body>
+</html>

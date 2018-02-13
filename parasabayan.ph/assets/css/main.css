@@ -1251,7 +1251,7 @@ li.media:after {
 @media (min-width: 768px) {
 	.big-left-media .media-left img, .big-left-media
   .media-right img {
-		max-width: 95px;
+		max-width: 300px;
 	}
 }
 
