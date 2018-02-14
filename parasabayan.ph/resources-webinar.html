@@ -5,91 +5,43 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js">
 <!--<![endif]-->
-
 <head>
 	<title>#ParaSaBayan</title>
-	<meta charset="utf-8">
-	<!--[if IE]>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<![endif]-->
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png" />
-
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/animations.css">
-	<link rel="stylesheet" href="assets/css/fonts.css">
-	<link rel="stylesheet" href="assets/css/main.css" class="color-switcher-link">
-	<script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
-
-	<!--[if lt IE 9]>
-		<script src="assets/js/vendor/html5shiv.min.js"></script>
-		<script src="assets/js/vendor/respond.min.js"></script>
-		<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-	<![endif]-->
-
+	<meta charset="utf-8"><!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->
+	<meta content="" name="description">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="assets/images/fav.png" rel="shortcut icon" type="image/x-icon">
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/animations.css" rel="stylesheet">
+	<link href="assets/css/fonts.css" rel="stylesheet">
+	<link class="color-switcher-link" href="assets/css/main.css" rel="stylesheet">
+	<script src="assets/js/vendor/modernizr-2.6.2.min.js">
+	</script><!--[if lt IE 9]>
+        <script src="assets/js/vendor/html5shiv.min.js"></script>
+        <script src="assets/js/vendor/respond.min.js"></script>
+        <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <![endif]-->
 </head>
-
 <body>
 	<!--[if lt IE 9]>
-		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
-	<![endif]-->
-
+        <div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+    <![endif]-->
 	<div class="preloader">
 		<div class="preloader_image"></div>
 	</div>
-
-	<!-- search modal -->
-	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
-		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			<span aria-hidden="true">
-				<i class="rt-icon2-cross2"></i>
-			</span>
-		</button>
-		<div class="widget widget_search">
-			<form method="get" class="searchform search-form form-inline" action="">
-				<div class="form-group">
-					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
-				</div>
-				<button type="submit" class="theme_button">Search</button>
-			</form>
-		</div>
-	</div>
-
-	<!-- Unyson messages modal -->
-	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
-		<div class="fw-messages-wrap ls with_padding">
-			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
-			<!--
-		<ul class="list-unstyled">
-			<li>Message To User</li>
-		</ul>
-		-->
-
-		</div>
-	</div>
-	<!-- eof .modal -->
-
 	<!-- wrappers for visual page editor and boxed version of template -->
 	<div id="canvas">
 		<div id="box_wrapper">
-
 			<!-- template sections -->
-
 			<header class="page_header header_white toggler_xs_right section_padding_15">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-sm-12 display_table">
 							<div class="header_left_logo display_table_cell">
-								<a href="index.html" class="logo top_logo">
-									<img src="assets/images/logo.png" alt="">
-								</a>
-								<a href="index.html" class="logo top_logo">
-									<img src="assets/images/logo1.png" alt="">
-								</a>
+								<a class="logo top_logo" href="index.html"><img alt="" src="assets/images/logo.png"></a> <a class="logo top_logo" href="index.html"><img alt="" src="assets/images/logo1.png"></a>
 							</div>
-
 							<div class="header_mainmenu display_table_cell text-center">
 								<!-- main nav start -->
 								<nav class="mainmenu_wrapper">
@@ -97,9 +49,7 @@
 										<!-- home -->
 										<li>
 											<a href="index.html">Home</a>
-										</li>
-										<!-- eof home -->
-
+										</li><!-- eof home -->
 										<!-- about -->
 										<li>
 											<a href="about.html#about">About</a>
@@ -107,14 +57,11 @@
 												<li>
 													<a href="about.html#ulap">About ULAP</a>
 												</li>
-
 												<li>
 													<a href="about.html#partnership">Partnership</a>
 												</li>
 											</ul>
-										</li>
-										<!-- eof about -->
-
+										</li><!-- eof about -->
 										<!-- tsp -->
 										<li>
 											<a href="#">TSP</a>
@@ -122,10 +69,8 @@
 												<li>
 													<a href="tsp.html#tsp">What is TSP?</a>
 												</li>
-											</ul>								
-										</li>
-										<!-- eof tsp -->
-
+											</ul>
+										</li><!-- eof tsp -->
 										<!-- resources -->
 										<li class="active">
 											<a href="#">Resources</a>
@@ -133,15 +78,11 @@
 												<!-- campaign -->
 												<li>
 													<a href="resources-campaign.html">Campaign</a>
-												</li>
-												<!-- eof campaign -->
-
+												</li><!-- eof campaign -->
 												<!-- newsletters -->
 												<li>
 													<a href="resources-newsletters.html">Newsletters</a>
-												</li>
-												<!-- eof newsletters -->
-
+												</li><!-- eof newsletters -->
 												<!-- Webinars -->
 												<li>
 													<a href="resources-webinar.html">Webinars</a>
@@ -171,50 +112,34 @@
 															<a href="resources-webinar-national-lgu-ict-forum-2017.html">National LGU ICT Forum 2017</a>
 														</li>
 													</ul>
-												</li>
-												<!-- eof Webinars -->
+												</li><!-- eof Webinars -->
 											</ul>
-										</li>
-										<!-- eof resources -->
-
+										</li><!-- eof resources -->
 										<!-- news -->
 										<li>
 											<a href="news.html">News</a>
-										</li>
-										<!-- eof news -->
-
+										</li><!-- eof news -->
 										<!-- best practices -->
 										<li>
 											<a href="lgu-best-practices-error-page.html">Best Practices</a>
-										</li>
-										<!-- eof best practices -->
-
+										</li><!-- eof best practices -->
 										<!-- contacts -->
 										<li>
 											<a href="contact-us.html">Contact Us</a>
-										</li>
-										<!-- eof contacts -->
-
+										</li><!-- eof contacts -->
 										<!-- login -->
 										<li>
 											<a href="login.html">Login</a>
-										</li>
-										<!-- eof login -->
-
+										</li><!-- eof login -->
 									</ul>
-								</nav>
-								<!-- eof main nav -->
+								</nav><!-- eof main nav -->
 								<!-- header toggler -->
-								<span class="toggle_menu">
-									<span></span>
-								</span>
+								 <span class="toggle_menu"><span></span></span>
 							</div>
-
 						</div>
 					</div>
 				</div>
 			</header>
-
 			<section class="page_breadcrumbs cs gradient2 parallax section_padding_top_50 section_padding_bottom_50">
 				<div class="container">
 					<div class="row">
@@ -222,9 +147,7 @@
 							<h2>Webinars</h2>
 							<ol class="breadcrumb darklinks">
 								<li>
-									<a href="index.html">
-									Home
-								</a>
+									<a href="index.html">Home</a>
 								</li>
 								<li class="active">
 									<a href="resources-webinar.html">Webinars</a>
@@ -234,388 +157,231 @@
 					</div>
 				</div>
 			</section>
-
 			<section class="ls section_padding_top_150 section_padding_bottom_130 columns_padding_25">
 				<div class="container">
 					<div class="row">
-
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-
 							<article class="post format-small-image with_border rounded">
-
 								<div class="side-item side-md content-padding">
-
 									<div class="row">
-
 										<div class="col-md-5">
-											<div class="item-media entry-thumbnail top_rounded">
-												<img src="assets/images/webinar/1.png" alt="">
-											</div>
+											<div class="item-media entry-thumbnail top_rounded"><img alt="" src="assets/images/webinar/1.png"></div>
 										</div>
-
 										<div class="col-md-7">
 											<div class="item-content">
-
-												<h4 class="entry-title ">
-													<a href="resources-webinar-single.html" rel="bookmark">The Seal of Good Local Governance</a>
-												</h4>
-
+												<h4 class="entry-title"><a href="resources-webinar-single.html" rel="bookmark">The Seal of Good Local Governance</a></h4>
 												<div class="inline-content entry-meta semibold small-text darklinks topmargin_30">
 													<div>
-														<i class="fa fa-user highlight rightpadding_5" aria-hidden="true"></i>
-														<a href="#">admin</a>
+														<i aria-hidden="true" class="fa fa-user highlight rightpadding_5"></i> <a href="#">admin</a>
 													</div>
 													<div>
-														<i class="fa fa-calendar highlight rightpadding_5" aria-hidden="true"></i>
-														<a href="#">
-															<time class="entry-date" datetime="2017-03-13T08:50:40+00:00">
-																06/06/2016
-															</time>
-														</a>
+														<i aria-hidden="true" class="fa fa-calendar highlight rightpadding_5"></i> <a href="#"><time class="entry-date" datetime="2017-03-13T08:50:40+00:00">06/06/2016</time></a>
 													</div>
 													<div>
-														<i class="fa fa-tag highlight rightpadding_5" aria-hidden="true"></i>
-														<a href="resources-webinar-single.html">Watch Video</a>
+														<i aria-hidden="true" class="fa fa-tag highlight rightpadding_5"></i> <a href="resources-webinar-single.html">Watch Video</a>
 													</div>
 												</div>
-
 											</div>
 										</div>
-
 									</div>
 								</div>
-
-							</article>
-							<!-- .post -->
-
+							</article><!-- .post -->
 							<article class="post format-small-image with_border rounded">
-
 								<div class="side-item side-md content-padding">
-
 									<div class="row">
-
 										<div class="col-md-5">
-											<div class="item-media entry-thumbnail top_rounded">
-												<img src="assets/images/webinar/2.png" alt="">
-											</div>
+											<div class="item-media entry-thumbnail top_rounded"><img alt="" src="assets/images/webinar/2.png"></div>
 										</div>
-
 										<div class="col-md-7">
 											<div class="item-content">
-
-												<h4 class="entry-title ">
-													<a href="resources-webinar-single.html" rel="bookmark">Global Forum on Remittances and Development 2015</a>
-												</h4>
-
+												<h4 class="entry-title"><a href="resources-webinar-single.html" rel="bookmark">Global Forum on Remittances and Development 2015</a></h4>
 												<div class="inline-content entry-meta semibold small-text darklinks topmargin_30">
 													<div>
-														<i class="fa fa-user highlight rightpadding_5" aria-hidden="true"></i>
-														<a href="#">admin</a>
+														<i aria-hidden="true" class="fa fa-user highlight rightpadding_5"></i> <a href="#">admin</a>
 													</div>
 													<div>
-														<i class="fa fa-calendar highlight rightpadding_5" aria-hidden="true"></i>
-														<a href="#">
-															<time class="entry-date" datetime="2017-03-13T08:50:40+00:00">
-																07/01/2016
-															</time>
-														</a>
+														<i aria-hidden="true" class="fa fa-calendar highlight rightpadding_5"></i> <a href="#"><time class="entry-date" datetime="2017-03-13T08:50:40+00:00">07/01/2016</time></a>
 													</div>
 													<div>
-														<i class="fa fa-tag highlight rightpadding_5" aria-hidden="true"></i>
-														<a href="resources-webinar-single.html">Watch Video</a>
+														<i aria-hidden="true" class="fa fa-tag highlight rightpadding_5"></i> <a href="resources-webinar-single.html">Watch Video</a>
 													</div>
 												</div>
-
 											</div>
 										</div>
-
 									</div>
 								</div>
-
-							</article>
-							<!-- .post -->
-
+							</article><!-- .post -->
 							<article class="post format-small-image with_border rounded">
-
 								<div class="side-item side-md content-padding">
-
 									<div class="row">
-
 										<div class="col-md-5">
-											<div class="item-media entry-thumbnail top_rounded">
-												<img src="assets/images/webinar/3.png" alt="">
-											</div>
+											<div class="item-media entry-thumbnail top_rounded"><img alt="" src="assets/images/webinar/3.png"></div>
 										</div>
-
 										<div class="col-md-7">
 											<div class="item-content">
-
-												<h4 class="entry-title ">
-													<a href="resources-webinar-single.html" rel="bookmark">ULAP represents LGUs for OGP Asia Pacific Regional Conference</a>
-												</h4>
-
+												<h4 class="entry-title"><a href="resources-webinar-single.html" rel="bookmark">ULAP represents LGUs for OGP Asia Pacific Regional Conference</a></h4>
 												<div class="inline-content entry-meta semibold small-text darklinks topmargin_30">
 													<div>
-														<i class="fa fa-user highlight rightpadding_5" aria-hidden="true"></i>
-														<a href="#">admin</a>
+														<i aria-hidden="true" class="fa fa-user highlight rightpadding_5"></i> <a href="#">admin</a>
 													</div>
 													<div>
-														<i class="fa fa-calendar highlight rightpadding_5" aria-hidden="true"></i>
-														<a href="#">
-															<time class="entry-date" datetime="2017-03-13T08:50:40+00:00">
-																07/01/2016
-															</time>
-														</a>
+														<i aria-hidden="true" class="fa fa-calendar highlight rightpadding_5"></i> <a href="#"><time class="entry-date" datetime="2017-03-13T08:50:40+00:00">07/01/2016</time></a>
 													</div>
 													<div>
-														<i class="fa fa-tag highlight rightpadding_5" aria-hidden="true"></i>
-														<a href="resources-webinar-single.html">Watch Video</a>
+														<i aria-hidden="true" class="fa fa-tag highlight rightpadding_5"></i> <a href="resources-webinar-single.html">Watch Video</a>
 													</div>
 												</div>
-
 											</div>
 										</div>
-
 									</div>
 								</div>
-
-							</article>
-							<!-- .post -->
-
+							</article><!-- .post -->
 							<article class="post format-small-image with_border rounded">
-
 								<div class="side-item side-md content-padding">
-
 									<div class="row">
-
 										<div class="col-md-5">
-											<div class="item-media entry-thumbnail top_rounded">
-												<img src="assets/images/webinar/4.png" alt="">
-											</div>
+											<div class="item-media entry-thumbnail top_rounded"><img alt="" src="assets/images/webinar/4.png"></div>
 										</div>
-
 										<div class="col-md-7">
 											<div class="item-content">
-
-												<h4 class="entry-title ">
-													<a href="resources-webinar-single.html" rel="bookmark">“Puno ng Buhay” Program Partnership</a>
-												</h4>
-
+												<h4 class="entry-title"><a href="resources-webinar-single.html" rel="bookmark">“Puno ng Buhay” Program Partnership</a></h4>
 												<div class="inline-content entry-meta semibold small-text darklinks topmargin_30">
 													<div>
-														<i class="fa fa-user highlight rightpadding_5" aria-hidden="true"></i>
-														<a href="#">admin</a>
+														<i aria-hidden="true" class="fa fa-user highlight rightpadding_5"></i> <a href="#">admin</a>
 													</div>
 													<div>
-														<i class="fa fa-calendar highlight rightpadding_5" aria-hidden="true"></i>
-														<a href="#">
-															<time class="entry-date" datetime="2017-03-13T08:50:40+00:00">
-																07/01/2016
-															</time>
-														</a>
+														<i aria-hidden="true" class="fa fa-calendar highlight rightpadding_5"></i> <a href="#"><time class="entry-date" datetime="2017-03-13T08:50:40+00:00">07/01/2016</time></a>
 													</div>
 													<div>
-														<i class="fa fa-tag highlight rightpadding_5" aria-hidden="true"></i>
-														<a href="resources-webinar-single.html">Watch Video</a>
+														<i aria-hidden="true" class="fa fa-tag highlight rightpadding_5"></i> <a href="resources-webinar-single.html">Watch Video</a>
 													</div>
 												</div>
-
 											</div>
 										</div>
-
 									</div>
 								</div>
-
-							</article>
-							<!-- .post -->
-
+							</article><!-- .post -->
 							<article class="post format-small-image with_border rounded">
-
 								<div class="side-item side-md content-padding">
-
 									<div class="row">
-
 										<div class="col-md-5">
-											<div class="item-media entry-thumbnail top_rounded">
-												<img src="assets/images/webinar/5.png" alt="">
-											</div>
+											<div class="item-media entry-thumbnail top_rounded"><img alt="" src="assets/images/webinar/5.png"></div>
 										</div>
-
 										<div class="col-md-7">
 											<div class="item-content">
-
-												<h4 class="entry-title ">
-													<a href="resources-webinar-single.html" rel="bookmark">Local Education Policy Workshop</a>
-												</h4>
-
+												<h4 class="entry-title"><a href="resources-webinar-single.html" rel="bookmark">Local Education Policy Workshop</a></h4>
 												<div class="inline-content entry-meta semibold small-text darklinks topmargin_30">
 													<div>
-														<i class="fa fa-user highlight rightpadding_5" aria-hidden="true"></i>
-														<a href="#">admin</a>
+														<i aria-hidden="true" class="fa fa-user highlight rightpadding_5"></i> <a href="#">admin</a>
 													</div>
 													<div>
-														<i class="fa fa-calendar highlight rightpadding_5" aria-hidden="true"></i>
-														<a href="#">
-															<time class="entry-date" datetime="2017-03-13T08:50:40+00:00">
-																07/01/2016
-															</time>
-														</a>
+														<i aria-hidden="true" class="fa fa-calendar highlight rightpadding_5"></i> <a href="#"><time class="entry-date" datetime="2017-03-13T08:50:40+00:00">07/01/2016</time></a>
 													</div>
 													<div>
-														<i class="fa fa-tag highlight rightpadding_5" aria-hidden="true"></i>
-														<a href="resources-webinar-single.html">Watch Video</a>
+														<i aria-hidden="true" class="fa fa-tag highlight rightpadding_5"></i> <a href="resources-webinar-single.html">Watch Video</a>
 													</div>
 												</div>
-
 											</div>
 										</div>
-
 									</div>
 								</div>
-
-							</article>
-							<!-- .post -->
-
+							</article><!-- .post -->
 							<article class="post format-small-image with_border rounded">
-
 								<div class="side-item side-md content-padding">
-
 									<div class="row">
-
 										<div class="col-md-5">
-											<div class="item-media entry-thumbnail top_rounded">
-												<img src="assets/images/webinar/6.png" alt="">
-											</div>
+											<div class="item-media entry-thumbnail top_rounded"><img alt="" src="assets/images/webinar/6.png"></div>
 										</div>
-
 										<div class="col-md-7">
 											<div class="item-content">
-
-												<h4 class="entry-title ">
-													<a href="resources-webinar-single.html" rel="bookmark">Health PolicyTube with PhilHealth on Universal Health Care</a>
-												</h4>
-
+												<h4 class="entry-title"><a href="resources-webinar-single.html" rel="bookmark">Health PolicyTube with PhilHealth on Universal Health Care</a></h4>
 												<div class="inline-content entry-meta semibold small-text darklinks topmargin_30">
 													<div>
-														<i class="fa fa-user highlight rightpadding_5" aria-hidden="true"></i>
-														<a href="#">admin</a>
+														<i aria-hidden="true" class="fa fa-user highlight rightpadding_5"></i> <a href="#">admin</a>
 													</div>
 													<div>
-														<i class="fa fa-calendar highlight rightpadding_5" aria-hidden="true"></i>
-														<a href="#">
-															<time class="entry-date" datetime="2017-03-13T08:50:40+00:00">
-																07/01/2016
-															</time>
-														</a>
+														<i aria-hidden="true" class="fa fa-calendar highlight rightpadding_5"></i> <a href="#"><time class="entry-date" datetime="2017-03-13T08:50:40+00:00">07/01/2016</time></a>
 													</div>
 													<div>
-														<i class="fa fa-tag highlight rightpadding_5" aria-hidden="true"></i>
-														<a href="resources-webinar-single.html">Watch Video</a>
+														<i aria-hidden="true" class="fa fa-tag highlight rightpadding_5"></i> <a href="resources-webinar-single.html">Watch Video</a>
 													</div>
 												</div>
-
 											</div>
 										</div>
-
 									</div>
 								</div>
-
-							</article>
-							<!-- .post -->
-
+							</article><!-- .post -->
 							<div class="row topmargin_60">
 								<div class="col-sm-12 text-center">
 									<ul class="pagination highlightlinks">
 										<li>
-											<a href="#">
-												<span class="sr-only">Prev</span>
-												<i class="fa fa-angle-left" aria-hidden="true"></i>
-											</a>
+											<a href="#"><span class="sr-only">Prev</span> <i aria-hidden="true" class="fa fa-angle-left"></i></a>
 										</li>
-										<li class="active"><a href="#">1</a></li>
-										<li><a href="#">2</a></li>
-										<li><a href="#">3</a></li>
-										<li><a href="#">4</a></li>
-										<li><a href="#">5</a></li>
+										<li class="active">
+											<a href="#">1</a>
+										</li>
 										<li>
-											<a href="#">
-												<span class="sr-only">Next</span>
-												<i class="fa fa-angle-right" aria-hidden="true"></i>
-											</a>
+											<a href="#">2</a>
+										</li>
+										<li>
+											<a href="#">3</a>
+										</li>
+										<li>
+											<a href="#">4</a>
+										</li>
+										<li>
+											<a href="#">5</a>
+										</li>
+										<li>
+											<a href="#"><span class="sr-only">Next</span> <i aria-hidden="true" class="fa fa-angle-right"></i></a>
 										</li>
 									</ul>
 								</div>
 							</div>
-
-						</div>
-						<!--eof .col-sm-8 (main content)-->
-
-						
+						</div><!--eof .col-sm-8 (main content)-->
 					</div>
 				</div>
 			</section>
-
 			<footer class="page_footer ds darkblue parallax section_padding_top_100 section_padding_bottom_65 columns_padding_25">
 				<div class="container">
 					<div class="row">
-
 						<div class="col-md-4 col-sm-12 text-center to_animate" data-animation="fadeInUp">
 							<div class="widget">
-								<a href="index.html" class="logo top_logo text-left bottommargin_30">
-									<img src="assets/images/logo2.png" alt="">
-								</a>
+								<a class="logo top_logo text-left bottommargin_30" href="index.html"><img alt="" src="assets/images/logo2.png"></a>
 								<p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren takimata sanctus est Lorem ipsum dolor sit amet lorem ipsum dolor amet, consetetur sadipscing elitred diam nonumy eirmod tempor invidunt.</p>
-
 								<div class="topmargin_30">
-									<a class="social-icon color-icon soc-facebook" href="#" title="Facebook"></a>
-									<a class="social-icon color-icon soc-twitter" href="#" title="Twitter"></a>
+									<a class="social-icon color-icon soc-facebook" href="#" title="Facebook"></a> 
+									<a class="social-icon color-icon soc-twitter" href="#" title="Twitter"></a> 
 									<a class="social-icon color-icon soc-youtube" href="#" title="Youtube"></a>
 								</div>
 							</div>
 						</div>
-
 						<div class="col-md-4 col-sm-6 text-center to_animate" data-animation="fadeInUp">
 							<div class="widget widget_contact topmargin_20">
 								<h3 class="widget-title">Mailing form</h3>
-								<form class="contact-form topmargin_45" method="post" action="">
-									<p class="form-group">
-										<label for="footer-name">Name <span class="required">*</span></label>
-										<input type="text" aria-required="true" size="30" value="" name="name" id="footer-name" class="form-control text-center" placeholder="Full Name">
-									</p>
-									<p class="form-group">
-										<label for="footer-email">Email <span class="required">*</span></label>
-										<input type="email" aria-required="true" size="30" value="" name="email" id="footer-email" class="form-control text-center" placeholder="Email Address">
-									</p>
-									<p class="form-group">
-										<label for="footer-message">Message</label>
-										<textarea aria-required="true" rows="3" cols="45" name="message" id="footer-message" class="form-control text-center" placeholder="Your Message"></textarea>
-									</p>
-									<button type="submit" id="footer_contact_form_submit" name="contact_submit" class="theme_button color1">Send Message</button>
+								<form action="" class="contact-form topmargin_45" method="post">
+									<p class="form-group"><label for="footer-name">Name <span class="required">*</span></label> <input aria-required="true" class="form-control text-center" id="footer-name" name="name" placeholder="Full Name" size="30" type="text" value=""></p>
+									<p class="form-group"><label for="footer-email">Email <span class="required">*</span></label> <input aria-required="true" class="form-control text-center" id="footer-email" name="email" placeholder="Email Address" size="30" type="email" value=""></p>
+									<p class="form-group"><label for="footer-message">Message</label> 
+									<textarea aria-required="true" class="form-control text-center" cols="45" id="footer-message" name="message" placeholder="Your Message" rows="3"></textarea></p>
+									<button class="theme_button color1" id="footer_contact_form_submit" name="contact_submit" type="submit">Send Message</button>
 								</form>
 							</div>
 						</div>
-
 						<div class="col-md-4 col-sm-6 text-center to_animate" data-animation="fadeInUp">
 							<div class="widget widget_contacts topmargin_20">
-
-								<h3 class="widget-title">Contact Us</h3>
-								
-								<i class="fa fa-map-marker highlight rightpadding_5" aria-hidden="true"></i> 28th Floor, Unit 2803, Summit One Tower Building 530, Shaw Boulevard, Mandaluyong City 1550, Philippines
+								<h3 class="widget-title">Contact Us</h3><i aria-hidden="true" class="fa fa-map-marker highlight rightpadding_5"></i> 28th Floor, Unit 2803, Summit One Tower Building 530, Shaw Boulevard, Mandaluyong City 1550, Philippines
 								<br><br>
-								<i class="fa fa-phone highlight rightpadding_5" aria-hidden="true"></i> (632) 534-6787
+								<i aria-hidden="true" class="fa fa-phone highlight rightpadding_5"></i> (632) 534-6787
 								<br><br>
-								<i class="fa fa-print highlight rightpadding_5" aria-hidden="true"></i> (632) 534-6789
+								<i aria-hidden="true" class="fa fa-print highlight rightpadding_5"></i> (632) 534-6789
 								<br><br>
-								<i class="fa fa-envelope highlight rightpadding_5" aria-hidden="true"></i> parasabayansec@gmail.com
-
+								<i aria-hidden="true" class="fa fa-envelope highlight rightpadding_5"></i> parasabayansec@gmail.com
 							</div>
 						</div>
-
-
 					</div>
 				</div>
 			</footer>
-
 			<section class="ds darkblue page_copyright section_padding_15">
 				<div class="container">
 					<div class="row">
@@ -625,16 +391,11 @@
 					</div>
 				</div>
 			</section>
-
-		</div>
-		<!-- eof #box_wrapper -->
-	</div>
-	<!-- eof #canvas -->
-
-	<script src="assets/js/compressed.js"></script>
-	<script src="assets/js/main.js"></script>
-
+		</div><!-- eof #box_wrapper -->
+	</div><!-- eof #canvas -->
+	<script src="assets/js/compressed.js">
+	</script> 
+	<script src="assets/js/main.js">
+	</script>
 </body>
-
-
 </html>

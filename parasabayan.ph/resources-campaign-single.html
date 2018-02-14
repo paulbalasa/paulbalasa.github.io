@@ -5,91 +5,43 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js">
 <!--<![endif]-->
-
 <head>
 	<title>#ParaSaBayan</title>
-	<meta charset="utf-8">
-	<!--[if IE]>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<![endif]-->
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png" />
-
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/animations.css">
-	<link rel="stylesheet" href="assets/css/fonts.css">
-	<link rel="stylesheet" href="assets/css/main.css" class="color-switcher-link">
-	<script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
-
-	<!--[if lt IE 9]>
-		<script src="assets/js/vendor/html5shiv.min.js"></script>
-		<script src="assets/js/vendor/respond.min.js"></script>
-		<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-	<![endif]-->
-
+	<meta charset="utf-8"><!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->
+	<meta content="" name="description">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="assets/images/fav.png" rel="shortcut icon" type="image/x-icon">
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/animations.css" rel="stylesheet">
+	<link href="assets/css/fonts.css" rel="stylesheet">
+	<link class="color-switcher-link" href="assets/css/main.css" rel="stylesheet">
+	<script src="assets/js/vendor/modernizr-2.6.2.min.js">
+	</script><!--[if lt IE 9]>
+        <script src="assets/js/vendor/html5shiv.min.js"></script>
+        <script src="assets/js/vendor/respond.min.js"></script>
+        <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <![endif]-->
 </head>
-
 <body>
 	<!--[if lt IE 9]>
-		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
-	<![endif]-->
-
+        <div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+    <![endif]-->
 	<div class="preloader">
 		<div class="preloader_image"></div>
 	</div>
-
-	<!-- search modal -->
-	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
-		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			<span aria-hidden="true">
-				<i class="rt-icon2-cross2"></i>
-			</span>
-		</button>
-		<div class="widget widget_search">
-			<form method="get" class="searchform search-form form-inline" action="">
-				<div class="form-group">
-					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
-				</div>
-				<button type="submit" class="theme_button">Search</button>
-			</form>
-		</div>
-	</div>
-
-	<!-- Unyson messages modal -->
-	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
-		<div class="fw-messages-wrap ls with_padding">
-			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
-			<!--
-		<ul class="list-unstyled">
-			<li>Message To User</li>
-		</ul>
-		-->
-
-		</div>
-	</div>
-	<!-- eof .modal -->
-
 	<!-- wrappers for visual page editor and boxed version of template -->
 	<div id="canvas">
 		<div id="box_wrapper">
-
 			<!-- template sections -->
-
 			<header class="page_header header_white toggler_xs_right section_padding_15">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-sm-12 display_table">
 							<div class="header_left_logo display_table_cell">
-								<a href="index.html" class="logo top_logo">
-									<img src="assets/images/logo.png" alt="">
-								</a>
-								<a href="index.html" class="logo top_logo">
-									<img src="assets/images/logo1.png" alt="">
-								</a>
+								<a class="logo top_logo" href="index.html"><img alt="" src="assets/images/logo.png"></a> <a class="logo top_logo" href="index.html"><img alt="" src="assets/images/logo1.png"></a>
 							</div>
-
 							<div class="header_mainmenu display_table_cell text-center">
 								<!-- main nav start -->
 								<nav class="mainmenu_wrapper">
@@ -97,9 +49,7 @@
 										<!-- home -->
 										<li>
 											<a href="index.html">Home</a>
-										</li>
-										<!-- eof home -->
-
+										</li><!-- eof home -->
 										<!-- about -->
 										<li>
 											<a href="about.html#about">About</a>
@@ -107,14 +57,11 @@
 												<li>
 													<a href="about.html#ulap">About ULAP</a>
 												</li>
-
 												<li>
 													<a href="about.html#partnership">Partnership</a>
 												</li>
 											</ul>
-										</li>
-										<!-- eof about -->
-
+										</li><!-- eof about -->
 										<!-- tsp -->
 										<li>
 											<a href="#">TSP</a>
@@ -122,10 +69,8 @@
 												<li>
 													<a href="tsp.html#tsp">What is TSP?</a>
 												</li>
-											</ul>								
-										</li>
-										<!-- eof tsp -->
-
+											</ul>
+										</li><!-- eof tsp -->
 										<!-- resources -->
 										<li class="active">
 											<a href="#">Resources</a>
@@ -133,15 +78,11 @@
 												<!-- campaign -->
 												<li>
 													<a href="resources-campaign.html">Campaign</a>
-												</li>
-												<!-- eof campaign -->
-
+												</li><!-- eof campaign -->
 												<!-- newsletters -->
 												<li>
 													<a href="resources-newsletters.html">Newsletters</a>
-												</li>
-												<!-- eof newsletters -->
-
+												</li><!-- eof newsletters -->
 												<!-- Webinars -->
 												<li>
 													<a href="resources-webinar.html">Webinars</a>
@@ -171,50 +112,34 @@
 															<a href="resources-webinar-national-lgu-ict-forum-2017.html">National LGU ICT Forum 2017</a>
 														</li>
 													</ul>
-												</li>
-												<!-- eof Webinars -->
+												</li><!-- eof Webinars -->
 											</ul>
-										</li>
-										<!-- eof resources -->
-
+										</li><!-- eof resources -->
 										<!-- news -->
 										<li>
 											<a href="news.html">News</a>
-										</li>
-										<!-- eof news -->
-
+										</li><!-- eof news -->
 										<!-- best practices -->
 										<li>
 											<a href="lgu-best-practices-error-page.html">Best Practices</a>
-										</li>
-										<!-- eof best practices -->
-
+										</li><!-- eof best practices -->
 										<!-- contacts -->
 										<li>
 											<a href="contact-us.html">Contact Us</a>
-										</li>
-										<!-- eof contacts -->
-
+										</li><!-- eof contacts -->
 										<!-- login -->
 										<li>
 											<a href="login.html">Login</a>
-										</li>
-										<!-- eof login -->
-
+										</li><!-- eof login -->
 									</ul>
-								</nav>
-								<!-- eof main nav -->
+								</nav><!-- eof main nav -->
 								<!-- header toggler -->
-								<span class="toggle_menu">
-									<span></span>
-								</span>
+								 <span class="toggle_menu"><span></span></span>
 							</div>
-
 						</div>
 					</div>
 				</div>
 			</header>
-
 			<section class="page_breadcrumbs cs gradient2 parallax section_padding_top_50 section_padding_bottom_50">
 				<div class="container">
 					<div class="row">
@@ -222,9 +147,7 @@
 							<h2>Campaign</h2>
 							<ol class="breadcrumb darklinks">
 								<li>
-									<a href="index.html">
-									Home
-								</a>
+									<a href="index.html">Home</a>
 								</li>
 								<li class="active">
 									<a href="resources-campaign.html">Campaign</a>
@@ -237,271 +160,168 @@
 					</div>
 				</div>
 			</section>
-
 			<section class="ls section_padding_top_150 section_padding_bottom_150 columns_padding_25">
 				<div class="container">
 					<div class="row">
-
 						<div class="col-sm-7 col-md-8 col-lg-8">
-
 							<article class="single-post vertical-item content-padding big-padding post with_border rounded">
-								<div class="entry-thumbnail item-media top_rounded overflow_hidden">
-									<img src="assets/images/campaigns/1.jpg" alt="Sample Image">
-								</div>
+								<div class="entry-thumbnail item-media top_rounded overflow_hidden"><img alt="Sample Image" src="assets/images/campaigns/1.jpg"></div>
 								<div class="item-content">
-
-
 									<header class="entry-header">
-
-										<h1 class="entry-title topmargin_0">
-											Sample Title
-										</h1>
-
+										<h1 class="entry-title topmargin_0">Sample Title</h1>
 										<div class="muted_background post-adds content-justify rounded">
-
 											<div>
 												<div class="dropdown inline-block">
-													<a href="#" data-target="#" class="theme_button color1 share_button" id="post_share_buttons" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-														<i class="fa fa-share" aria-hidden="true"></i>
-													</a>
-													<div class="dropdown-menu" aria-labelledby="post_share_buttons">
+													<a aria-expanded="false" aria-haspopup="true" class="theme_button color1 share_button" data-target="#" data-toggle="dropdown" href="#" id="post_share_buttons"><i aria-hidden="true" class="fa fa-share"></i></a>
+													<div aria-labelledby="post_share_buttons" class="dropdown-menu">
 														<div class="share_buttons">
-															<a href="" class="social-icon color-bg-icon soc-facebook" target="_blank"></a>
-															<a href="#0" class="social-icon color-bg-icon soc-twitter" target="_blank"></a>
-															<a href="#0" class="social-icon color-bg-icon soc-google" target="_blank"></a>
-															<a href="#0" class="social-icon color-bg-icon soc-pinterest" target="_blank"></a>
-															<a href="#0" class="social-icon color-bg-icon soc-linkedin" target="_blank"></a>
-															<a href="#0" class="social-icon color-bg-icon soc-tumblr" target="_blank"></a>
-														</div>
-														<!-- eof .share_buttons -->
-													</div>
-													<!-- eof .dropdown-menu -->
-												</div>
-												<!-- eof .dropdown -->
-
-												<a href="#" class="theme_button color1 no_bg_button like_button">
-													<i class="fa fa-heart-o" aria-hidden="true"></i>
-												</a>
-
-												<span class="item-likes">
-													355 likes
-												</span>
+															<a class="social-icon color-bg-icon soc-facebook" href="" target="_blank"></a> 
+															<a class="social-icon color-bg-icon soc-twitter" href="#0" target="_blank"></a> 
+															<a class="social-icon color-bg-icon soc-youtube" href="#0" target="_blank"></a> 
+														</div><!-- eof .share_buttons -->
+													</div><!-- eof .dropdown-menu -->
+												</div><!-- eof .dropdown -->
+												 <a class="theme_button color1 no_bg_button like_button" href="#"><i aria-hidden="true" class="fa fa-heart-o"></i></a> <span class="item-likes">355 likes</span>
 											</div>
-
 											<div>
-												<span class="views-count main_bg_color">
-													23573 views
-												</span>
+												<span class="views-count main_bg_color">23573 views</span>
 											</div>
-
 										</div>
-
-									</header>
-									<!-- .entry-header -->
-
+									</header><!-- .entry-header -->
 									<div class="entry-content">
-
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-										</p>
-
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-										</p>
-
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-										</p>
-
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 										<div class="inline-content entry-meta semibold small-text darklinks topmargin_30">
 											<div>
-												<i class="fa fa-user highlight rightpadding_5" aria-hidden="true"></i>
-												<a href="#">admin</a>
+												<i aria-hidden="true" class="fa fa-user highlight rightpadding_5"></i> <a href="#">admin</a>
 											</div>
 											<div>
-												<i class="fa fa-calendar highlight rightpadding_5" aria-hidden="true"></i>
-												<a href="#">
-													<time class="entry-date" datetime="2017-03-13T08:50:40+00:00">
-														07/08/2017
-													</time>
-												</a>
+												<i aria-hidden="true" class="fa fa-calendar highlight rightpadding_5"></i> <a href="#"><time class="entry-date" datetime="2017-03-13T08:50:40+00:00">07/08/2017</time></a>
 											</div>
 											<div>
-												<i class="fa fa-tag highlight rightpadding_5" aria-hidden="true"></i>
-												<a href="#">Post</a>
+												<i aria-hidden="true" class="fa fa-tag highlight rightpadding_5"></i> <a href="#">Post</a>
 											</div>
 										</div>
-
-									</div>
-									<!-- .entry-content -->
-
-								</div>
-								<!-- .item-content -->
-
+									</div><!-- .entry-content -->
+								</div><!-- .item-content -->
 							</article>
-
-						</div>
-						<!--eof .col-sm-8 (main content)-->
-
-
+						</div><!--eof .col-sm-8 (main content)-->
 						<!-- sidebar -->
 						<aside class="col-sm-5 col-md-4 col-lg-4">
-
 							<div class="widget widget_recent_posts">
-
 								<h3 class="widget-title">Recent Posts</h3>
 								<ul class="media-list">
 									<li class="media">
-										<div class="media-left media-middle">
-											<img src="assets/images/recent_post1.jpg" alt="" />
-										</div>
+										<div class="media-left media-middle"><img alt="" src="assets/images/recent_post1.jpg"></div>
 										<div class="media-body media-middle">
-											<h4>
-												<a href="resources-campaign-single.html">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit 
-												</a>
-											</h4>
-											<span>
-												<time class="entry-date small-text highlight" datetime="2017-03-13T08:50:40+00:00">
-													june 10, 2017
-												</time>
-											</span>
+											<h4><a href="resources-campaign-single.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h4><span><time class="entry-date small-text highlight" datetime="2017-03-13T08:50:40+00:00">june 10, 2017</time></span>
 										</div>
 									</li>
-
 									<li class="media">
-										<div class="media-left media-middle">
-											<img src="assets/images/recent_post2.jpg" alt="" />
-										</div>
+										<div class="media-left media-middle"><img alt="" src="assets/images/recent_post2.jpg"></div>
 										<div class="media-body media-middle">
-											<h4>
-												<a href="resources-campaign-single.html">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit
-												</a>
-											</h4>
-											<span>
-												<time class="entry-date small-text highlight" datetime="2017-03-13T08:50:40+00:00">
-													june 11, 2017
-												</time>
-											</span>
+											<h4><a href="resources-campaign-single.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h4><span><time class="entry-date small-text highlight" datetime="2017-03-13T08:50:40+00:00">june 11, 2017</time></span>
 										</div>
 									</li>
-
 									<li class="media">
-										<div class="media-left media-middle">
-											<img src="assets/images/recent_post3.jpg" alt="" />
-										</div>
+										<div class="media-left media-middle"><img alt="" src="assets/images/recent_post3.jpg"></div>
 										<div class="media-body media-middle">
-											<h4>
-												<a href="resources-campaign-single.html">
-													Lorem ipsum dolor sit amet, consectetur adipiscing elit
-												</a>
-											</h4>
-											<span>
-
-												<time class="entry-date small-text highlight" datetime="2017-03-13T08:50:40+00:00">
-													june 12, 2017
-												</time>
-											</span>
+											<h4><a href="resources-campaign-single.html">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h4><span><time class="entry-date small-text highlight" datetime="2017-03-13T08:50:40+00:00">june 12, 2017</time></span>
 										</div>
 									</li>
-
-
 								</ul>
 							</div>
-
 							<div class="widget widget_archive">
-
 								<h3 class="widget-title">Archives</h3>
 								<div class="form-group select-group">
-									<label for="archive" class="sr-only">Select Month</label>
-									<select id="archive" name="archive" class="choice empty form-control">
-										<option value="" disabled="" selected="" data-default="">Select Month</option>
-										<option value="cat_1">January</option>
-										<option value="cat_2">February</option>
-										<option value="cat_3">March</option>
-										<option value="cat_4">April</option>
-										<option value="cat_5">May</option>
-										<option value="cat_6">June</option>
-										<option value="cat_7">July</option>
-										<option value="cat_8">August</option>
-										<option value="cat_5">September</option>
-										<option value="cat_6">October</option>
-										<option value="cat_7">November</option>
-										<option value="cat_8">December</option>
-									</select>
-									<i class="fa fa-angle-down theme_button no-bg-button" aria-hidden="true"></i>
+									<label class="sr-only" for="archive">Select Month</label> <select class="choice empty form-control" id="archive" name="archive">
+										<option data-default="" disabled selected value="">
+											Select Month
+										</option>
+										<option value="January">
+											January
+										</option>
+										<option value="February">
+											February
+										</option>
+										<option value="March">
+											March
+										</option>
+										<option value="April">
+											April
+										</option>
+										<option value="May">
+											May
+										</option>
+										<option value="June">
+											June
+										</option>
+										<option value="July">
+											July
+										</option>
+										<option value="August">
+											August
+										</option>
+										<option value="September">
+											September
+										</option>
+										<option value="October">
+											October
+										</option>
+										<option value="November">
+											November
+										</option>
+										<option value="December">
+											December
+										</option>
+									</select> <i aria-hidden="true" class="fa fa-angle-down theme_button no-bg-button"></i>
 								</div>
 							</div>
-
-
-						</aside>
-						<!-- eof aside sidebar -->
-
+						</aside><!-- eof aside sidebar -->
 					</div>
 				</div>
 			</section>
-
 			<footer class="page_footer ds darkblue parallax section_padding_top_100 section_padding_bottom_65 columns_padding_25">
 				<div class="container">
 					<div class="row">
-
 						<div class="col-md-4 col-sm-12 text-center to_animate" data-animation="fadeInUp">
 							<div class="widget">
-								<a href="index.html" class="logo top_logo text-left bottommargin_30">
-									<img src="assets/images/logo2.png" alt="">
-								</a>
+								<a class="logo top_logo text-left bottommargin_30" href="index.html"><img alt="" src="assets/images/logo2.png"></a>
 								<p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren takimata sanctus est Lorem ipsum dolor sit amet lorem ipsum dolor amet, consetetur sadipscing elitred diam nonumy eirmod tempor invidunt.</p>
-
 								<div class="topmargin_30">
-									<a class="social-icon color-icon soc-facebook" href="#" title="Facebook"></a>
-									<a class="social-icon color-icon soc-twitter" href="#" title="Twitter"></a>
+									<a class="social-icon color-icon soc-facebook" href="#" title="Facebook"></a> 
+									<a class="social-icon color-icon soc-twitter" href="#" title="Twitter"></a> 
 									<a class="social-icon color-icon soc-youtube" href="#" title="Youtube"></a>
 								</div>
 							</div>
 						</div>
-
 						<div class="col-md-4 col-sm-6 text-center to_animate" data-animation="fadeInUp">
 							<div class="widget widget_contact topmargin_20">
 								<h3 class="widget-title">Mailing form</h3>
-								<form class="contact-form topmargin_45" method="post" action="">
-									<p class="form-group">
-										<label for="footer-name">Name <span class="required">*</span></label>
-										<input type="text" aria-required="true" size="30" value="" name="name" id="footer-name" class="form-control text-center" placeholder="Full Name">
-									</p>
-									<p class="form-group">
-										<label for="footer-email">Email <span class="required">*</span></label>
-										<input type="email" aria-required="true" size="30" value="" name="email" id="footer-email" class="form-control text-center" placeholder="Email Address">
-									</p>
-									<p class="form-group">
-										<label for="footer-message">Message</label>
-										<textarea aria-required="true" rows="3" cols="45" name="message" id="footer-message" class="form-control text-center" placeholder="Your Message"></textarea>
-									</p>
-									<button type="submit" id="footer_contact_form_submit" name="contact_submit" class="theme_button color1">Send Message</button>
+								<form action="" class="contact-form topmargin_45" method="post">
+									<p class="form-group"><label for="footer-name">Name <span class="required">*</span></label> <input aria-required="true" class="form-control text-center" id="footer-name" name="name" placeholder="Full Name" size="30" type="text" value=""></p>
+									<p class="form-group"><label for="footer-email">Email <span class="required">*</span></label> <input aria-required="true" class="form-control text-center" id="footer-email" name="email" placeholder="Email Address" size="30" type="email" value=""></p>
+									<p class="form-group"><label for="footer-message">Message</label> 
+									<textarea aria-required="true" class="form-control text-center" cols="45" id="footer-message" name="message" placeholder="Your Message" rows="3"></textarea></p>
+									<button class="theme_button color1" id="footer_contact_form_submit" name="contact_submit" type="submit">Send Message</button>
 								</form>
 							</div>
 						</div>
-
 						<div class="col-md-4 col-sm-6 text-center to_animate" data-animation="fadeInUp">
 							<div class="widget widget_contacts topmargin_20">
-
-								<h3 class="widget-title">Contact Us</h3>
-								
-								<i class="fa fa-map-marker highlight rightpadding_5" aria-hidden="true"></i> 28th Floor, Unit 2803, Summit One Tower Building 530, Shaw Boulevard, Mandaluyong City 1550, Philippines
-								<br><br>
-								<i class="fa fa-phone highlight rightpadding_5" aria-hidden="true"></i> (632) 534-6787
-								<br><br>
-								<i class="fa fa-print highlight rightpadding_5" aria-hidden="true"></i> (632) 534-6789
-								<br><br>
-								<i class="fa fa-envelope highlight rightpadding_5" aria-hidden="true"></i> parasabayansec@gmail.com
-
+								<h3 class="widget-title">Contact Us</h3><i aria-hidden="true" class="fa fa-map-marker highlight rightpadding_5"></i> 28th Floor, Unit 2803, Summit One Tower Building 530, Shaw Boulevard, Mandaluyong City 1550, Philippines<br>
+								<br>
+								<i aria-hidden="true" class="fa fa-phone highlight rightpadding_5"></i> (632) 534-6787<br>
+								<br>
+								<i aria-hidden="true" class="fa fa-print highlight rightpadding_5"></i> (632) 534-6789<br>
+								<br>
+								<i aria-hidden="true" class="fa fa-envelope highlight rightpadding_5"></i> parasabayansec@gmail.com
 							</div>
 						</div>
-
 					</div>
 				</div>
 			</footer>
-
 			<section class="ds darkblue page_copyright section_padding_15">
 				<div class="container">
 					<div class="row">
@@ -511,16 +331,11 @@
 					</div>
 				</div>
 			</section>
-
-		</div>
-		<!-- eof #box_wrapper -->
-	</div>
-	<!-- eof #canvas -->
-
-	<script src="assets/js/compressed.js"></script>
-	<script src="assets/js/main.js"></script>
-
+		</div><!-- eof #box_wrapper -->
+	</div><!-- eof #canvas -->
+	<script src="assets/js/compressed.js">
+	</script> 
+	<script src="assets/js/main.js">
+	</script>
 </body>
-
-
 </html>

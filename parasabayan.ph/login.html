@@ -5,119 +5,70 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js">
 <!--<![endif]-->
-
 <head>
 	<title>#ParaSaBayan</title>
-	<meta charset="utf-8">
-	<!--[if IE]>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<![endif]-->
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8"><!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->
+	<meta content="" name="description">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="assets/images/fav.png" rel="shortcut icon" type="image/x-icon">
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/animations.css" rel="stylesheet">
+	<link href="assets/css/fonts.css" rel="stylesheet">
+	<link class="color-switcher-link" href="assets/css/main.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="assets/js/vendor/modernizr-2.6.2.min.js">
+	</script><!--[if lt IE 9]>
+        <script src="assets/js/vendor/html5shiv.min.js"></script>
+        <script src="assets/js/vendor/respond.min.js"></script>
+        <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <![endif]-->
 
-	<link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png" />
+	<style type="text/css">
+	#slideshow { 
+	   margin: 50px auto; 
+	   position: relative; 
+	   width: 100%; 
+	   height: 189px; 
+	   padding: 10px; 
+	   box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+	}
 
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/animations.css">
-	<link rel="stylesheet" href="assets/css/fonts.css">
-	<link rel="stylesheet" href="assets/css/main.css" class="color-switcher-link">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
-
-	<!--[if lt IE 9]>
-		<script src="assets/js/vendor/html5shiv.min.js"></script>
-		<script src="assets/js/vendor/respond.min.js"></script>
-		<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-	<![endif]-->
-
+	#slideshow > div { 
+	   position: absolute; 
+	   top: 10px; 
+	   left: 10px; 
+	   right: 10px; 
+	   bottom: 10px; 
+	}
+	</style>
 </head>
-
-<style type="text/css">
-#slideshow { 
-	margin: 50px auto; 
-	position: relative; 
-	width: 100%; 
-	height: 240px; 
-	padding: 10px; 
-	box-shadow: 0 0 20px rgba(0,0,0,0.4); 
-}
-
-#slideshow > div { 
-	position: absolute; 
-	top: 10px; 
-	left: 10px; 
-	right: 10px; 
-	bottom: 10px; 
-}
-</style>
-
 <body>
 	<!--[if lt IE 9]>
-		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
-	<![endif]-->
-
+        <div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+    <![endif]-->
 	<div class="preloader">
 		<div class="preloader_image"></div>
 	</div>
-
-	<!-- search modal -->
-	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
-		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			<span aria-hidden="true">
-				<i class="rt-icon2-cross2"></i>
-			</span>
-		</button>
-		<div class="widget widget_search">
-			<form method="get" class="searchform search-form form-inline" action="#">
-				<div class="form-group">
-					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
-				</div>
-				<button type="submit" class="theme_button">Search</button>
-			</form>
-		</div>
-	</div>
-
-	<!-- Unyson messages modal -->
-	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
-		<div class="fw-messages-wrap ls with_padding">
-			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
-			<!--
-		<ul class="list-unstyled">
-			<li>Message To User</li>
-		</ul>
-		-->
-
-		</div>
-	</div>
-	<!-- eof .modal -->
-
 	<!-- wrappers for visual page editor and boxed version of template -->
 	<div id="canvas">
 		<div id="box_wrapper">
-
 			<header class="page_header header_white toggler_xs_right section_padding_15">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-sm-12 display_table">
 							<div class="header_left_logo display_table_cell">
-								<a href="index-2.html" class="logo top_logo">
-									<img src="assets/images/logo.png" alt="">
-								</a>
-								<a href="index-2.html" class="logo top_logo">
-									<img src="assets/images/logo1.png" alt="">
-								</a>
+								<a class="logo top_logo" href="index-2.html"><img alt="" src="assets/images/logo.png"></a> <a class="logo top_logo" href="index-2.html"><img alt="" src="assets/images/logo1.png"></a>
 							</div>
-
 							<div class="header_mainmenu display_table_cell text-center">
 								<!-- main nav start -->
 								<nav class="mainmenu_wrapper">
 									<ul class="mainmenu nav sf-menu">
 										<!-- home -->
 										<li>
-											<a href="index-2.html">Home</a>
-										</li>
-										<!-- eof home -->
-
+											<a href="index.html">Home</a>
+										</li><!-- eof home -->
 										<!-- about -->
 										<li>
 											<a href="about.html#about">About</a>
@@ -125,14 +76,11 @@
 												<li>
 													<a href="about.html#ulap">About ULAP</a>
 												</li>
-
 												<li>
 													<a href="about.html#partnership">Partnership</a>
 												</li>
 											</ul>
-										</li>
-										<!-- eof about -->
-
+										</li><!-- eof about -->
 										<!-- tsp -->
 										<li>
 											<a href="#">TSP</a>
@@ -140,10 +88,8 @@
 												<li>
 													<a href="tsp.html#tsp">What is TSP?</a>
 												</li>
-											</ul>								
-										</li>
-										<!-- eof tsp -->
-
+											</ul>
+										</li><!-- eof tsp -->
 										<!-- resources -->
 										<li>
 											<a href="#">Resources</a>
@@ -151,15 +97,11 @@
 												<!-- campaign -->
 												<li>
 													<a href="resources-campaign.html">Campaign</a>
-												</li>
-												<!-- eof campaign -->
-
+												</li><!-- eof campaign -->
 												<!-- newsletters -->
 												<li>
 													<a href="resources-newsletters.html">Newsletters</a>
-												</li>
-												<!-- eof newsletters -->
-
+												</li><!-- eof newsletters -->
 												<!-- Webinars -->
 												<li>
 													<a href="resources-webinar.html">Webinars</a>
@@ -189,62 +131,43 @@
 															<a href="resources-webinar-national-lgu-ict-forum-2017.html">National LGU ICT Forum 2017</a>
 														</li>
 													</ul>
-												</li>
-												<!-- eof Webinars -->
+												</li><!-- eof Webinars -->
 											</ul>
-										</li>
-										<!-- eof resources -->
-
+										</li><!-- eof resources -->
 										<!-- news -->
 										<li>
 											<a href="news.html">News</a>
-										</li>
-										<!-- eof news -->
-
+										</li><!-- eof news -->
 										<!-- best practices -->
 										<li>
 											<a href="lgu-best-practices-error-page.html">Best Practices</a>
-										</li>
-										<!-- eof best practices -->
-
+										</li><!-- eof best practices -->
 										<!-- contacts -->
 										<li>
 											<a href="contact-us.html">Contact Us</a>
-										</li>
-										<!-- eof contacts -->
-
+										</li><!-- eof contacts -->
 										<!-- login -->
 										<li>
 											<a href="login.html">Login</a>
-										</li>
-										<!-- eof login -->
-
+										</li><!-- eof login -->
 									</ul>
-								</nav>
-								<!-- eof main nav -->
+								</nav><!-- eof main nav -->
 								<!-- header toggler -->
-								<span class="toggle_menu">
-									<span></span>
-								</span>
+								 <span class="toggle_menu"><span></span></span>
 							</div>
-
 						</div>
 					</div>
 				</div>
 			</header>
-
 			<section class="page_breadcrumbs cs gradient2 parallax section_padding_top_50 section_padding_bottom_50">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<h2>ULAP</h2>
-							<br>
+							<h2>ULAP</h2><br>
 							<h2>#ParaSaBayan</h2>
 							<ol class="breadcrumb darklinks">
 								<li>
-									<a href="index-2.html">
-									Home
-								</a>
+									<a href="index-2.html">Home</a>
 								</li>
 								<li class="active">
 									<a href="login.html">Login/Register</a>
@@ -254,8 +177,7 @@
 					</div>
 				</div>
 			</section>
-
-			<section class="ls page_portfolio section_padding_top_100 section_padding_bottom_100 columns_padding_25 columns_margin_bottom_30">
+			<section class="ls page_portfolio section_padding_top_50 section_padding_bottom_100 columns_padding_25 columns_margin_bottom_30">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-7 col-md-push-5">
@@ -263,227 +185,159 @@
 								<div class="col-lg-12 col-sm-12 col-md-12 nav-tab-holder">
 									<div class="tab-content">
 										<ul class="nav nav-tabs row" role="tablist">
-											<li role="presentation" class="active col-lg-6 col-md-6 col-sm-6"><a href="#request-account" aria-controls="request-account" role="tab" data-toggle="tab"><center>Request</center></a></li>
-											<li role="presentation" class="col-lg-6 col-md-6 col-sm-6"><a href="#login" aria-controls="login" role="tab" data-toggle="tab"><center>Login</center></a></li>
+											<li class="active col-lg-6 col-md-6 col-sm-6" role="presentation">
+												<a aria-controls="request-account" data-toggle="tab" href="#request-account" role="tab">
+												<center>
+													Request
+												</center></a>
+											</li>
+											<li class="col-lg-6 col-md-6 col-sm-6" role="presentation">
+												<a aria-controls="login" data-toggle="tab" href="#login" role="tab">
+												<center>
+													Login
+												</center></a>
+											</li>
 										</ul>
-										<div role="tabpanel" class="tab-pane active" id="request-account">
+										<div class="tab-pane active" id="request-account" role="tabpanel">
 											<div class="row">
 												<div class="col-lg-12 col-m-12 col-sm-12">
 													<article role="login">
 														<h3 class="text-center"><i class="fa fa-lock"></i>Request Account</h3>
-														<form class="signup" action="" method="post">
+														<form action="" class="signup" method="post">
 															<div class="form-group">
-																<i class="fa fa-user highlight" aria-hidden="true"></i> &nbsp &nbsp
-																<label>Lastname:</label>
-																<input type="text" name="lname" class="form-control" placeholder="Surname">
+																<i aria-hidden="true" class="fa fa-user highlight"></i> &nbsp; &nbsp; <label>Lastname:</label> <input class="form-control" name="lname" placeholder="Surname" type="text">
 															</div>
 															<div class="form-group">
-																<i class="fa fa-user highlight" aria-hidden="true"></i> &nbsp &nbsp
-																<label>Firstname:</label>
-																<input type="text" name="fname" class="form-control" placeholder="Firstname">
+																<i aria-hidden="true" class="fa fa-user highlight"></i> &nbsp; &nbsp; <label>Firstname:</label> <input class="form-control" name="fname" placeholder="Firstname" type="text">
 															</div>
 															<div class="form-group">
-																<i class="fa fa-user highlight" aria-hidden="true"></i> &nbsp &nbsp
-																<label>Middle Name</label>
-																<input type="text" name="middle_name" class="form-control" placeholder="Middle Name">
+																<i aria-hidden="true" class="fa fa-user highlight"></i> &nbsp; &nbsp; <label>Middle Name</label> <input class="form-control" name="middle_name" placeholder="Middle Name" type="text">
 															</div>
 															<div class="form-group">
-																<i class="fa fa-male highlight" aria-hidden="true"></i> &nbsp &nbsp
-																<label>Position:</label>
-																<input type="text" class="form-control" placeholder="Position">
+																<i aria-hidden="true" class="fa fa-male highlight"></i> &nbsp; &nbsp; <label>Position:</label> <input class="form-control" placeholder="Position" type="text">
 															</div>
 															<div class="form-group">
-																<i class="fa fa-bank highlight" aria-hidden="true"></i> &nbsp &nbsp
-																<label>Local Government Unit (LGU):</label>
-																<input type="text" class="form-control" placeholder="Local Government Unit (LGU)">
+																<i aria-hidden="true" class="fa fa-bank highlight"></i> &nbsp; &nbsp; <label>Local Government Unit (LGU):</label> <input class="form-control" placeholder="Local Government Unit (LGU)" type="text">
 															</div>
 															<div class="form-group">
-																<i class="fa fa-map-o highlight" aria-hidden="true"></i> &nbsp &nbsp
-																<label>Province:</label>
-																<input type="text" class="form-control" placeholder="Province">
+																<i aria-hidden="true" class="fa fa-map-o highlight"></i> &nbsp; &nbsp; <label>Province:</label> <input class="form-control" placeholder="Province" type="text">
 															</div>
 															<div class="form-group">
-																<i class="fa fa-fax highlight" aria-hidden="true"></i> &nbsp &nbsp
-																<label>Phone Number:</label>
-																<input type="text" class="form-control" placeholder="(xxx) xxx-xxxx">
+																<i aria-hidden="true" class="fa fa-fax highlight"></i> &nbsp; &nbsp; <label>Phone Number:</label> <input class="form-control" placeholder="(xxx) xxx-xxxx" type="text">
 															</div>
 															<div class="form-group">
-																<i class="fa fa-phone highlight" aria-hidden="true"></i> &nbsp &nbsp
-																<label>Mobile Number:</label>
-																<input type="text" class="form-control" placeholder="+639xx-xxx-xxxx">
+																<i aria-hidden="true" class="fa fa-phone highlight"></i> &nbsp; &nbsp; <label>Mobile Number:</label> <input class="form-control" placeholder="+639xx-xxx-xxxx" type="text">
 															</div>
 															<div class="form-group">
-																<i class="fa fa-envelope highlight" aria-hidden="true"></i> &nbsp &nbsp
-																<label>Email Address:</label>
-																<input type="email" class="form-control" placeholder="sample@email.com">
+																<i aria-hidden="true" class="fa fa-envelope highlight"></i> &nbsp; &nbsp; <label>Email Address:</label> <input class="form-control" placeholder="sample@email.com" type="email">
 															</div>
 															<div class="form-group">
-																<i class="fa fa-envelope highlight" aria-hidden="true"></i> &nbsp &nbsp
-																<label>Verify Email Address:</label>
-																<input type="email" class="form-control" placeholder="sample@email.com">
+																<i aria-hidden="true" class="fa fa-envelope highlight"></i> &nbsp; &nbsp; <label>Verify Email Address:</label> <input class="form-control" placeholder="sample@email.com" type="email">
 															</div>
 															<div class="form-group">
-																<i class="fa fa-key highlight" aria-hidden="true"></i> &nbsp &nbsp
-																<label>Password:</label>
-																<input type="password" class="form-control" placeholder="Password">
+																<i aria-hidden="true" class="fa fa-key highlight"></i> &nbsp; &nbsp; <label>Password:</label> <input class="form-control" placeholder="Password" type="password">
 															</div>
 															<div class="form-group">
-																<i class="fa fa-key highlight" aria-hidden="true"></i> &nbsp &nbsp
-																<label>Verify Password:</label>
-																<input type="password" class="form-control" placeholder="Confirm Password">
+																<i aria-hidden="true" class="fa fa-key highlight"></i> &nbsp; &nbsp; <label>Verify Password:</label> <input class="form-control" placeholder="Confirm Password" type="password">
 															</div>
 															<div class="form-group">
 																<center>
-																	<a href="#" class="theme_button color1">Submit</a>
-																	<a href="#" class="theme_button color1">Clear</a>
+																	<a class="theme_button color1" href="#">Submit</a> <a class="theme_button color1" href="#">Clear</a>
 																</center>
 															</div>
 														</form>
 													</article>
 												</div>
 												<div class="col-sm-2"></div>
-											</div>
-											<!-- end of row -->
+											</div><!-- end of row -->
 										</div>
-										<div role="tabpanel" class="tab-pane" id="login">
+										<div class="tab-pane" id="login" role="tabpanel">
 											<div class="row">
 												<div class="col-lg-12 col-m-12 col-sm-12">
 													<article role="login">
 														<h3 class="text-center"><i class="fa fa-lock"></i>Login</h3>
-														<form class="signup" action="" method="post">
+														<form action="" class="signup" method="post">
 															<div class="form-group">
-																<i class="fa fa-user highlight" aria-hidden="true"></i> &nbsp &nbsp
-																<label>Username/Email:</label>
-																<input type="text" class="form-control" placeholder="Username/Email">
+																<i aria-hidden="true" class="fa fa-user highlight"></i> &nbsp; &nbsp; <label>Username/Email:</label> <input class="form-control" placeholder="Username/Email" type="text">
 															</div>
 															<div class="form-group">
-																<i class="fa fa-lock highlight" aria-hidden="true"></i> &nbsp &nbsp
-																<label>Password:</label>
-																<input type="password" name="password" class="form-control" placeholder="Password">
+																<i aria-hidden="true" class="fa fa-lock highlight"></i> &nbsp; &nbsp; <label>Password:</label> <input class="form-control" name="password" placeholder="Password" type="password">
 															</div>
 															<div class="form-group">
 																<center>
-																	<a href="login-user-dashboard.html" class="theme_button color1">Login</a>
-																	<a href="#" class="theme_button color1">Clear</a>
+																	<a class="theme_button color1" href="login-user-dashboard.html">Login</a> <a class="theme_button color1" href="#">Clear</a>
 																</center>
 															</div>
 														</form>
 													</article>
 												</div>
 												<div class="col-sm-2"></div>
-											</div>
-											<!-- end of row -->
-										</div>	
-										<!-- end of home -->
+											</div><!-- end of row -->
+										</div><!-- end of home -->
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-5 col-md-pull-7">
 							<div id="slideshow">
-								<div>
-									<img src="assets/images/slider/1.png">
-								</div>
-								<div>
-									<img src="assets/images/slider/2.png">
-								</div>
-								<div>
-									<img src="assets/images/slider/3.png" alt="">
-								</div>
-								<div>
-									<img src="assets/images/slider/4.png" alt="">
-								</div>
-								<div>
-									<img src="assets/images/slider/5.png" alt="">
-								</div>
-								<div>
-									<img src="assets/images/slider/6.png" alt="">
-								</div>
+								<div><img src="assets/images/slider-login/1.png"></div>
+								<div><img src="assets/images/slider-login/2.png"></div>
+								<div><img alt="" src="assets/images/slider-login/3.png"></div>
+								<div><img alt="" src="assets/images/slider-login/4.png"></div>
+								<div><img alt="" src="assets/images/slider-login/5.png"></div>
+								<div><img alt="" src="assets/images/slider-login/6.png"></div>
 							</div>
 							<h2>Parasabayan Advocacy</h2>
-							<p>
-								In celebration of the Local Government Code’s 25th anniversary in 2016, the Union of Local Authoritiesof the Philippines (ULAP), the umbrella organization of all leagues of local government units and locally elected officials, is undertaking a series of policy dialogues and program advocacies in support of the local government agenda in national government policies.
-							</p>
-							<p>
-								The idea first emerged in the series of policy discussions of ULAP with the Department of Budget and Management (DBM) and the Department of Interior and Local Government (DILG) on increased performance-based incentives and direct downloads of national funds to qualified local governments, which is mainstreamed in the 2016 national budget. ULAP follows through with the concept, the initiative summarizes the continued advocacy direction of local governments units (LGUs) and echoes the spirit by which the Local Government Code is created.The advocacy takes on the theme of #ParaSaBayan: Pagtataguyod ng Makabuluhang Adhikain ng Pamamahalang Lokal (Pursuing Meaningful Agenda for Local Governance) as a slogan to emphasize that the development of towns and communities is commensurate to the development of the country.
-							</p>
-							<p>
-								In Filipino psychology, bayan is a genuine Filipino concept (dalumat) that triggers meanings of town of origin (i.e., Anong bayan mo? Taga-saang bayan ka?) and of the nation (i.e., Bayang Pilipinas). Hence the campaign will emphasize that pursuing what most responds to the needs of the bayan-as-town is the same as responding to what is best for the bayan-as-country. Para sa aking sariling bayan tungo sa ikauunlad ng ating buong bayan, is the driving idea of the entire advocacy.
-							</p>
-							<p>
-								The advocacy also accounts for the participative and inclusive governance, as the developments of the previous years have highlighted and has shown proof of improvement in communities because of the direct engagement of civil society and other non-government sectors in the decision-making and implementation of development initiatives. The elements of transparency and participation have been the foundation of noteworthy programs empowering towns and communities such as the Bottom-Up Budgeting (BUB), Seal of Good Local Governance (and its corresponding performance incentives: Performance Challenge Fund, KALSADA for provinces, BUB for Barangays), among other expanded national-local programs for universal health care and last-mile efforts for education. Moreover, there is still the continuing discussion of amending the Local Government Code (Republic Act 7160), particularly on increasing the shares of the local governments from the national wealth. This direction is also hinged with ULAP’s commitments to the subnational implementation of the Open Government Partnership, and the Innovative Solutions to Open Government Partnership, supporting inclusiveness, transparency, and accountability in local governance.
-							</p>
-							<p>
-								The efforts for Good Local Governance necessitates evidence-informed policy making and outcomes-driven approaches to development. Hence the advocacy also pushes for institutionalization and further mainstreaming of programs for local government in line with the Community-Based Monitoring System, and the Sustainable Development Goals. In this light, the #ParaSaBayan advocacy anchors itself on the following core objectives:
-							</p>
-							<p>
-								Advocate platforms for sustainability and further improvement of policies and programs that pursue autonomy, devolution, and empowerment of local governments and their communities; Identify concrete directions for policy reform to support performance measurements and corresponding incentives for local governments in all levels (provinces, cities, municipalities, and barangays), and, Bridge partnerships of local governments with private and civil society organizations that can provide meaningful support to LGUs to meet performance targets. The campaign will run for 12 months – from November 2015 to October 2016. For the Code Anniversary in October 2016, ULAP and its partners envision a direct dialogue with the new president and gather commitments for the policies and programs pursuing the unified local government agenda.
-							</p>
+							<p>In celebration of the Local Government Code’s 25th anniversary in 2016, the Union of Local Authoritiesof the Philippines (ULAP), the umbrella organization of all leagues of local government units and locally elected officials, is undertaking a series of policy dialogues and program advocacies in support of the local government agenda in national government policies.</p>
+							<p>The idea first emerged in the series of policy discussions of ULAP with the Department of Budget and Management (DBM) and the Department of Interior and Local Government (DILG) on increased performance-based incentives and direct downloads of national funds to qualified local governments, which is mainstreamed in the 2016 national budget. ULAP follows through with the concept, the initiative summarizes the continued advocacy direction of local governments units (LGUs) and echoes the spirit by which the Local Government Code is created.The advocacy takes on the theme of #ParaSaBayan: Pagtataguyod ng Makabuluhang Adhikain ng Pamamahalang Lokal (Pursuing Meaningful Agenda for Local Governance) as a slogan to emphasize that the development of towns and communities is commensurate to the development of the country.</p>
+							<p>In Filipino psychology, bayan is a genuine Filipino concept (dalumat) that triggers meanings of town of origin (i.e., Anong bayan mo? Taga-saang bayan ka?) and of the nation (i.e., Bayang Pilipinas). Hence the campaign will emphasize that pursuing what most responds to the needs of the bayan-as-town is the same as responding to what is best for the bayan-as-country. Para sa aking sariling bayan tungo sa ikauunlad ng ating buong bayan, is the driving idea of the entire advocacy.</p>
+							<p>The advocacy also accounts for the participative and inclusive governance, as the developments of the previous years have highlighted and has shown proof of improvement in communities because of the direct engagement of civil society and other non-government sectors in the decision-making and implementation of development initiatives. The elements of transparency and participation have been the foundation of noteworthy programs empowering towns and communities such as the Bottom-Up Budgeting (BUB), Seal of Good Local Governance (and its corresponding performance incentives: Performance Challenge Fund, KALSADA for provinces, BUB for Barangays), among other expanded national-local programs for universal health care and last-mile efforts for education. Moreover, there is still the continuing discussion of amending the Local Government Code (Republic Act 7160), particularly on increasing the shares of the local governments from the national wealth. This direction is also hinged with ULAP’s commitments to the subnational implementation of the Open Government Partnership, and the Innovative Solutions to Open Government Partnership, supporting inclusiveness, transparency, and accountability in local governance.</p>
+							<p>The efforts for Good Local Governance necessitates evidence-informed policy making and outcomes-driven approaches to development. Hence the advocacy also pushes for institutionalization and further mainstreaming of programs for local government in line with the Community-Based Monitoring System, and the Sustainable Development Goals. In this light, the #ParaSaBayan advocacy anchors itself on the following core objectives:</p>
+							<p>Advocate platforms for sustainability and further improvement of policies and programs that pursue autonomy, devolution, and empowerment of local governments and their communities; Identify concrete directions for policy reform to support performance measurements and corresponding incentives for local governments in all levels (provinces, cities, municipalities, and barangays), and, Bridge partnerships of local governments with private and civil society organizations that can provide meaningful support to LGUs to meet performance targets. The campaign will run for 12 months – from November 2015 to October 2016. For the Code Anniversary in October 2016, ULAP and its partners envision a direct dialogue with the new president and gather commitments for the policies and programs pursuing the unified local government agenda.</p>
 						</div>
 					</div>
 				</div>
 			</section>
-
 			<footer class="page_footer ds darkblue parallax section_padding_top_100 section_padding_bottom_65 columns_padding_25">
 				<div class="container">
 					<div class="row">
-
 						<div class="col-md-4 col-sm-12 text-center to_animate" data-animation="fadeInUp">
 							<div class="widget">
-								<a href="index-2.html" class="logo top_logo text-left bottommargin_30">
-									<img src="assets/images/logo2.png" alt="">
-								</a>
+								<a class="logo top_logo text-left bottommargin_30" href="index-2.html"><img alt="" src="assets/images/logo2.png"></a>
 								<p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren takimata sanctus est Lorem ipsum dolor sit amet lorem ipsum dolor amet, consetetur sadipscing elitred diam nonumy eirmod tempor invidunt.</p>
-
 								<div class="topmargin_30">
-									<a class="social-icon color-icon soc-facebook" href="#" title="Facebook"></a>
-									<a class="social-icon color-icon soc-twitter" href="#" title="Twitter"></a>
+									<a class="social-icon color-icon soc-facebook" href="#" title="Facebook"></a> 
+									<a class="social-icon color-icon soc-twitter" href="#" title="Twitter"></a> 
 									<a class="social-icon color-icon soc-youtube" href="#" title="Youtube"></a>
 								</div>
 							</div>
 						</div>
-
 						<div class="col-md-4 col-sm-6 text-center to_animate" data-animation="fadeInUp">
 							<div class="widget widget_contact topmargin_20">
 								<h3 class="widget-title">Mailing form</h3>
-								<form class="contact-form topmargin_45" method="post" action="#">
-									<p class="form-group">
-										<label for="footer-name">Name <span class="required">*</span></label>
-										<input type="text" aria-required="true" size="30" value="" name="name" id="footer-name" class="form-control text-center" placeholder="Full Name">
-									</p>
-									<p class="form-group">
-										<label for="footer-email">Email <span class="required">*</span></label>
-										<input type="email" aria-required="true" size="30" value="" name="email" id="footer-email" class="form-control text-center" placeholder="Email Address">
-									</p>
-									<p class="form-group">
-										<label for="footer-message">Message</label>
-										<textarea aria-required="true" rows="3" cols="45" name="message" id="footer-message" class="form-control text-center" placeholder="Your Message"></textarea>
-									</p>
-									<button type="submit" id="footer_contact_form_submit" name="contact_submit" class="theme_button color1">Send Message</button>
+								<form action="#" class="contact-form topmargin_45" method="post">
+									<p class="form-group"><label for="footer-name">Name <span class="required">*</span></label> <input aria-required="true" class="form-control text-center" id="footer-name" name="name" placeholder="Full Name" size="30" type="text" value=""></p>
+									<p class="form-group"><label for="footer-email">Email <span class="required">*</span></label> <input aria-required="true" class="form-control text-center" id="footer-email" name="email" placeholder="Email Address" size="30" type="email" value=""></p>
+									<p class="form-group"><label for="footer-message">Message</label> 
+									<textarea aria-required="true" class="form-control text-center" cols="45" id="footer-message" name="message" placeholder="Your Message" rows="3"></textarea></p>
+									<button class="theme_button color1" id="footer_contact_form_submit" name="contact_submit" type="submit">Send Message</button>
 								</form>
 							</div>
 						</div>
-
 						<div class="col-md-4 col-sm-6 text-center to_animate" data-animation="fadeInUp">
 							<div class="widget widget_contacts topmargin_20">
-
-								<h3 class="widget-title">Contact Us</h3>
-								
-								<i class="fa fa-map-marker highlight rightpadding_5" aria-hidden="true"></i> 28th Floor, Unit 2803, Summit One Tower Building 530, Shaw Boulevard, Mandaluyong City 1550, Philippines
+								<h3 class="widget-title">Contact Us</h3><i aria-hidden="true" class="fa fa-map-marker highlight rightpadding_5"></i> 28th Floor, Unit 2803, Summit One Tower Building 530, Shaw Boulevard, Mandaluyong City 1550, Philippines
 								<br><br>
-								<i class="fa fa-phone highlight rightpadding_5" aria-hidden="true"></i> (632) 534-6787
+								<i aria-hidden="true" class="fa fa-phone highlight rightpadding_5"></i> (632) 534-6787
 								<br><br>
-								<i class="fa fa-print highlight rightpadding_5" aria-hidden="true"></i> (632) 534-6789
+								<i aria-hidden="true" class="fa fa-print highlight rightpadding_5"></i> (632) 534-6789
 								<br><br>
-								<i class="fa fa-envelope highlight rightpadding_5" aria-hidden="true"></i> parasabayansec@gmail.com
-
+								<i aria-hidden="true" class="fa fa-envelope highlight rightpadding_5"></i> parasabayansec@gmail.com
 							</div>
 						</div>
-
 					</div>
 				</div>
 			</footer>
-
 			<section class="ds darkblue page_copyright section_padding_15">
 				<div class="container">
 					<div class="row">
@@ -493,28 +347,25 @@
 					</div>
 				</div>
 			</section>
-
-		</div>
-		<!-- eof #box_wrapper -->
-	</div>
-	<!-- eof #canvas -->
-
-	<script src="assets/js/compressed.js"></script>
-	<script src="assets/js/main.js"></script>
-	<script src="assets/js/slidercarousel.js"></script>
+		</div><!-- eof #box_wrapper -->
+	</div><!-- eof #canvas -->
+	<script src="assets/js/compressed.js">
+	</script> 
+	<script src="assets/js/main.js">
+	</script> 
+	<script src="assets/js/slidercarousel.js">
+	</script> 
 	<script type="text/javascript">
-		$("#slideshow > div:gt(0)").hide();
+	       $("#slideshow > div:gt(0)").hide();
 
-		setInterval(function() { 
-			$('#slideshow > div:first')
-			.fadeOut(1000)
-			.next()
-			.fadeIn(1000)
-			.end()
-			.appendTo('#slideshow');
-		},  3000);
+	       setInterval(function() { 
+	           $('#slideshow > div:first')
+	           .fadeOut(1000)
+	           .next()
+	           .fadeIn(1000)
+	           .end()
+	           .appendTo('#slideshow');
+	       },  3000);
 	</script>
-
 </body>
-
 </html>

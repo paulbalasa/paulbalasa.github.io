@@ -1154,20 +1154,6 @@ input[type*="password"],
 	}
 }
 
-/* modal */
-.modal-backdrop.in {
-	filter: alpha(opacity=80);
-	opacity: .8;
-}
-
-.modal-content {
-	border-radius: 1px;
-}
-
-.modal-content [class*="col-"]:last-child {
-	margin-bottom: 0;
-}
-
 /* bootstrap tables */
 .table > tbody > tr > td,
 .table > tbody > tr > th,
@@ -3360,10 +3346,6 @@ div.ppt {
 
 #toTop:active, #toTop:focus {
 	outline: medium none;
-}
-
-.modal-open #toTop {
-	visibility: hidden;
 }
 
 /* Countdown */
@@ -6458,71 +6440,9 @@ a.logo.vertical_logo .logo_text {
 	}
 }
 
-/* modal search */
-#search_modal {
-	color: #ffffff;
-}
 
-#search_modal .search-form {
-	margin: 0 0 0 60px;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
 
-#search_modal a {
-	color: #ffffff;
-	opacity: 0.6;
-	font-size: 12px;
-	text-transform: uppercase;
-}
 
-#search_modal a:hover {
-	color: #4A6092;
-	opacity: 1;
-}
-
-#search_modal .searchform-respond {
-	width: 300px;
-	margin: 20px auto;
-}
-
-#search_modal .form-control {
-	border: none;
-	background-color: transparent;
-	height: 60px;
-	color: #ffffff;
-	width: 100%;
-}
-
-#search_modal .form-control:-moz-placeholder {
-	color: rgba(255, 255, 255, 0.8);
-	opacity: 1;
-}
-
-#search_modal .form-control::-moz-placeholder {
-	color: rgba(255, 255, 255, 0.8);
-	opacity: 1;
-}
-
-#search_modal .form-control:-ms-input-placeholder {
-	color: rgba(255, 255, 255, 0.8);
-}
-
-#search_modal .form-control::-webkit-input-placeholder {
-	color: rgba(255, 255, 255, 0.8);
-}
-
-#search_modal .theme_button {
-	color: #ffffff;
-}
-
-#search_modal .close {
-	padding: 19px 20px 18px;
-	position: absolute;
-	min-width: 0;
-	color: #ffffff;
-	text-shadow: none;
-	opacity: 1;
-}
 
 /* header floats */
 .page_header:before,
@@ -12317,18 +12237,6 @@ widget_pages
 	display: none;
 }
 
-#messages_modal .fw-messages-wrap {
-	position: absolute;
-	left: 50%;
-	top: 10%;
-	margin-left: -150px;
-	width: 300px;
-}
-
-#messages_modal ul {
-	margin-bottom: 0;
-}
-
 /* partners carousel */
 .owl-carousel.partners-carousel {
 	margin-bottom: 0;
@@ -14454,8 +14362,7 @@ p {
     text-indent: 50px;
 }
 
-.filter-button
-{
+.filter-button {
     font-size: 13px;
     border-radius: 5px;
     text-align: center;
@@ -14463,8 +14370,7 @@ p {
     margin-bottom: 30px;
 
 }
-.filter-button:hover
-{
+.filter-button:hover {
     font-size: 13px;
     border-radius: 5px;
     text-align: center;
@@ -14472,18 +14378,15 @@ p {
     background-color: #4A6092;
 
 }
-.btn-default:active .filter-button:active
-{
+.btn-default:active .filter-button:active {
     background-color: #4A6092;
     color: white;
 }
 
-.port-image
-{
+.port-image {
     width: 100%;
 }
 
-.gallery_product
-{
+.gallery_product {
     margin-bottom: 30px;
 }
