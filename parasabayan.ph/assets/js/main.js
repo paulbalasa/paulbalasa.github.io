@@ -1165,12 +1165,12 @@ function windowLoadInit() {
 
 	//page preloader
 	jQuery(".preloaderimg").fadeOut(150);
-	jQuery(".preloader").fadeOut(350).delay(200, function(){
+	jQuery(".preloader").fadeOut(350).delay(100, function(){
 		jQuery(this).remove();
 	});
 
 	jQuery(".twentytwenty-container").twentytwenty({
-	  default_offset_pct: 0.5, // How much of the before image is visible when the page loads
+	  default_offset_pct: 0, // How much of the before image is visible when the page loads
 	});
 
 }//eof windowLoadInit

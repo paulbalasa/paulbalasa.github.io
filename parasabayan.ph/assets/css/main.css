@@ -11456,7 +11456,7 @@ widget_pages
 }
 
 .apsc-theme-4 .apsc-each-profile a {
-	line-height: 60px;
+	line-height: 40px;
 	padding: 0 10px 0 0;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -11472,9 +11472,9 @@ widget_pages
 
 .apsc-theme-4 .apsc-each-profile a .fa {
 	border-right: 1px solid rgba(255, 255, 255, 0.4);
-	width: 60px;
-	line-height: 60px;
-	height: 60px;
+	width: 40px;
+	line-height: 40px;
+	height: 40px;
 	vertical-align: top;
 	text-align: center;
 	font-size: 16px;
