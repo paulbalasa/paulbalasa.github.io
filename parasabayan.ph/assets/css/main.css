@@ -9021,11 +9021,6 @@ section .intro_section .slide_description_wrapper {
 	}
 }
 
-@media (min-width: 1200px) {
-	.intro_section.page_mainslider .flex-control-nav {
-		top: calc(50% - 140px);
-	}
-
 	.intro_section.page_mainslider h2 {
 		font-size: 100px;
 	}
