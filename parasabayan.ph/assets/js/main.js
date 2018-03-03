@@ -1264,5 +1264,11 @@ $window.on('resize', function(){
 	}
 	
 });
+
+$(window).on("load", function() {
+	$(".spinner").fadeOut(function() {
+		$("#loading-mask").fadeOut("slow")
+	})
+});
 //end of IIFE function
 })();
