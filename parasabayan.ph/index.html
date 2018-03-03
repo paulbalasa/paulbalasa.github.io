@@ -16,7 +16,6 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/animations.css" rel="stylesheet">
     <link href="assets/css/fonts.css" rel="stylesheet">
-    <link href="assets/css/preloader.css" rel="stylesheet">
     <link class="color-switcher-link" href="assets/css/main.css" rel="stylesheet">
     <script src="assets/js/vendor/modernizr-2.6.2.min.js">
 	</script><!--[if lt IE 9]>
@@ -29,24 +28,9 @@
 	<!--[if lt IE 9]>
         <div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
     <![endif]-->
-
-    <div class="container" id="loading-mask">
-        <div class="row spinner" style="padding-right: 300px">
-            <div class="loader">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
+    <div class="preloader">
+    	<div class="preloader_image"></div>
     </div>
-    
     <!-- wrappers for visual page editor and boxed version of template -->
     <div id="canvas">
     	<div id="box_wrapper">
@@ -560,9 +544,6 @@
     		</div>
     	</div><!-- eof #box_wrapper -->
     </div><!-- eof #canvas -->
-
-    
-
     <script src="assets/js/compressed.js">
     </script> 
     <script src="assets/js/main.js">

@@ -1164,8 +1164,8 @@ function windowLoadInit() {
 	}
 
 	//page preloader
-	jQuery(".preloaderimg").fadeOut(150);
-	jQuery(".preloader").fadeOut(350).delay(100, function(){
+	jQuery(".preloaderimg").fadeOut(100);
+	jQuery(".preloader").fadeOut(150).delay(50, function(){
 		jQuery(this).remove();
 	});
 
@@ -1263,12 +1263,6 @@ $window.on('resize', function(){
 		jQuery(".page_header_wrapper").css({height: $header.first().outerHeight()}); //editing header wrapper height for smooth stick and unstick
 	}
 	
-});
-
-$(window).on("load", function() {
-	$(".spinner").fadeOut(function() {
-		$("#loading-mask").fadeOut("slow")
-	})
 });
 //end of IIFE function
 })();
