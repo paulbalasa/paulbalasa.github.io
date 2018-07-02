@@ -108,7 +108,7 @@
 
         $(function() {
             element.typed({
-                strings: ["Web Designer.", "Graphic Designer.", "Freelancer."],
+                strings: ["Web Designer.", "Programmer.", "Freelancer."],
                 typeSpeed: 100,
                 loop: true,
             });
